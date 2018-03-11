@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2015-11-28 10:55:36
+ * @version $Id$
+ */
+/*顶部样式*/
+.pg-systemset html {
+    background: #ededed;
+}
+.pg-systemset .myset-icon-wrap {
+    position: absolute;
+    left: 17px;
+    top: 10px;
+    width: 52px;
+    height: 35px;
+    padding-top: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.pg-systemset .myset-header {
+    background: url('../../img/base/header.png') repeat-x 0px -259px;
+    color: #FFFFFF;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.pg-systemset .myset-header i {
+    display: block;
+    width: 30px;
+    height: 22px;
+    background: url("../../img/base/home-icons2.png") no-repeat;
+    -webkit-background-size: 28px auto;
+    -moz-background-size: 28px auto;
+    background-size: 28px auto;
+}
+
+.pg-systemset .myset-header i.myset-icon {
+    background-position: 0 -65px;
+}
+
+.pg-systemset .myset-title {
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+}
+
+/*内容部分*/
+.pg-systemset .myset-nav {
+    top: 50px;
+    margin-bottom: 63px;
+    border-width: 1px 0;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    background: #FFFFFF;
+}
+
+.pg-systemset .myset-list {
+    height: 3.125rem;
+    line-height: 3.125rem;
+    background: #FFF;
+    text-align: left;
+    /*border-bottom: 1px solid #c9caca;*/
+    margin: 0 3%;
+}
+
+.pg-systemset .myset-list-title {
+    display: inline-block;
+    /*font-weight: bold;*/
+   /* margin-left: 2.375rem;*/
+    line-height: 3.2125rem;
+}
+
+.pg-systemset .myset-youjiantou {
+    box-sizing: border-box;
+    width: 2rem;
+    height: 3.125rem;
+  background-image: url(../../img/base/youjiantou.png);
+  background-size: 64%;
+  background-position: 20% 45%;
+    background-repeat: no-repeat;
+    display: inline-block;
+   /* margin-left: 12.268rem;;*/
+   float: right;
+   vertical-align: middle;
+}
+
+.pg-systemset .myset-pitch {
+    margin-left: 15px;
+    margin-right: 15px;
+    overflow: hidden;
+    background: #FFFFFF;
+}
+
+.pg-systemset .myset-lst {
+    height: 3.125rem;
+    background: #FFF;
+    text-align: left;
+    /*border-left: 4px solid #AE5DA1;*/
+    /*border-bottom: 1px solid #c9caca;*/
+    margin: 0 3%;
+}
+
+.pg-systemset .myset-tst {
+    height: 3.125rem;
+    background: #FFF;
+    text-align: left;
+    border-top: 1px solid #D8D8D8;
+    margin: 0 3%;
+}
+
+.pg-systemset .myset-logout {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 3.125rem;
+    line-height: 3.125rem;
+    background: #FFFFFF;
+    color: #FB5555;
+    text-align: center;
+    border-top: 1px solid #c9caca;
+}
+
+.pg-systemset .block:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em; 
+}

@@ -1,0 +1,468 @@
+@charset "UTF-8";
+
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2015-11-28 10:55:36
+ * @version $Id$
+ */
+
+
+/*顶部样式*/
+
+html {
+    background: #FFFFFF;
+}
+
+
+/*内容部分*/
+
+.pg-personal .cooperative-nav {
+    top: 50px;
+    border-width: 1px 0;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    background: #FFFFFF;
+}
+
+.pg-personal .cooperative-user-form {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.pg-personal .cooperative-promptli {
+    padding: 0 0 10px;
+    line-height: 35px;
+}
+
+.pg-personal .cooperative-user-form lable {
+    float: left;
+    /*width: 25%;*/
+    font-size: 16px;
+    cursor: auto;
+    text-align: center;
+    margin-left: 18px;
+    margin-right: 35px;
+    color: #666;
+}
+
+.pg-personal .cooperative-user-form li {
+    position: relative;
+    width: 100%;
+    padding: 7px 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.pg-personal .icon-arrow-right {
+    width: 24px;
+    height: 36px;
+    background-image: url(../../img/base/arrow-right.png);
+    background-size: 50%;
+    background-position: center right;
+    background-repeat: no-repeat;
+    float: right;
+    margin-right: 20px;
+}
+
+.pg-personal .cooperative-promptli input {
+    float: left;
+    width: 50%;
+    height: 35px;
+    display: inline-block;
+    border: none;
+    font-size: 1em;
+    outline: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    color: #333;
+    font-size: 14px;
+}
+
+.pg-personal .written {
+    height: 33px;
+    margin-left: 21px;
+    color: #FB7675;
+    line-height: 33px;
+    font-size: 14px;
+}
+
+.pg-personal .cooperative-personal {
+    padding: 0 0 10px;
+    line-height: 70px;
+}
+
+.pg-personal .cooperative-personal img {
+    width: 50px;
+    height: 50px;
+    margin-left: 18px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 35px;
+}
+
+.box .sex_p {
+    width: 100%;
+    border-bottom: 1px solid #dfdfdf;
+    position: relative;
+    height: 44px;
+    line-height: 44px;
+}
+
+.box .sex_p .sex_close {
+    position: absolute;
+    left: 20px;
+    color: #666666;
+}
+
+.box .sex_p .sex_sub {
+    position: absolute;
+    right: 20px;
+    color: #fb5555;
+}
+
+.pg-personal .cooperative-personal div {
+    height: 70px;
+}
+
+.pg-personal .cooperative-personal span {
+    color: #999;
+}
+
+.pg-personal .box {
+    width: 100%;
+    margin: 0 auto;
+    height: 200px;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+}
+
+.pg-personal .timetable {
+    width: 100%;
+}
+
+.pg-personal .time-title {
+    text-align: center;
+    background: #390;
+    color: #fff;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+.pg-personal .time-box {
+    width: 87%;
+    height: 123px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 7%;
+    margin-top: 17px;
+}
+
+.pg-personal .time-year {
+    line-height: 31px;
+    font-size: 14px;
+    width: 33%;
+    height: 123px;
+    overflow: hidden;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    left: 33%
+}
+
+.pg-personal .time-year li {
+    height: 41px;
+    color: #c2c2c2;
+    line-height: 41px
+}
+
+.pg-personal .time-month {
+    line-height: 31px;
+    font-size: 14px;
+    width: 33%;
+    height: 123px;
+    overflow: hidden;
+    text-align: center;
+    z-index: 3;
+    left: 66%;
+    position: absolute;
+}
+
+.pg-personal .time-month li {
+    height: 41px;
+    color: #c2c2c2;
+    line-height: 41px;
+}
+
+.pg-personal .time-day {
+    line-height: 41px;
+    font-size: 14px;
+    width: 33%;
+    height: 123px;
+    overflow: hidden;
+    text-align: center;
+    z-index: 3;
+    left: 0;
+    position: absolute;
+}
+
+.pg-personal .time-day li {
+    height: 41px;
+    color: #c2c2c2;
+}
+
+.pg-personal .time-btn {
+    text-align: center;
+    font-size: 48px;
+}
+
+.pg-personal .time-btn a {
+    display: inline-block;
+    padding: 4px 10px;
+    background: #390;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.pg-personal .time-clear {
+    margin-left: 4%;
+}
+
+.pg-personal .box .current {
+    color: #fb5555;
+}
+
+.pg-personal .time-boxCurr {
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: red;
+}
+
+.pg-personal #meals_number #number_of_determineCurr {
+    width: 86%;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 6px;
+    background-color: #fb5555;
+    font-size: 16px;
+    margin: 6% 7% 7%;
+    color: white;
+    text-align: center;
+}
+
+.gearDate,
+.gearDatetime,
+.gearTime {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9900;
+    overflow: hidden;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both
+}
+
+.date_ctrl {
+    vertical-align: middle;
+    background-color: white;
+    color: #363837;
+    margin: 0;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 9901;
+    overflow: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)
+}
+
+.slideInUp {
+    animation: slideInUp .3s ease-in;
+    -webkit-animation: slideInUp .3s ease-in
+}
+
+@-webkit-keyframes slideInUp {
+    from {
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0)
+    }
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+.date_roll,
+.datetime_roll,
+.time_roll {
+    display: -webkit-box;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    font-weight: bold;
+    background-color: transparent;
+    -webkit-mask: -webkit-gradient(linear, 0% 50%, 0% 100%, from(#debb47), to(rgba(36, 142, 36, 0)));
+    -webkit-mask: -webkit-linear-gradient(top, #debb47 50%, rgba(36, 142, 36, 0))
+}
+
+.date_roll>div,
+.datetime_roll>div,
+.time_roll>div {
+    font-size: 16px;
+    font-weight: normal;
+    height: 6em;
+    float: left;
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+    width: 33%;
+}
+
+.date_roll_mask {
+    -webkit-mask: -webkit-gradient(linear, 0% 40%, 0% 0%, from(#debb47), to(rgba(36, 142, 36, 0)));
+    -webkit-mask: -webkit-linear-gradient(bottom, #debb47 50%, rgba(36, 142, 36, 0));
+    padding: 2em 0 2em 0;
+}
+
+.date_roll>div:nth-child(2) {
+    width: 33%;
+}
+
+.date_roll>div:nth-child(1),
+.datetime_roll>div:nth-child(1) {
+    width: 33%;
+}
+
+.datetime_roll>div:first-child {
+    -webkit-box-flex: 6
+}
+
+.datetime_roll>div:last-child {
+    -webkit-box-flex: 6
+}
+
+.date_grid>div {
+    color: #000;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: .8em;
+    line-height: 2em
+}
+
+.date_roll>div:nth-child(3) .date_grid>div {
+    left: 42%
+}
+
+.datetime_roll>div .date_grid>div {
+    right: 0
+}
+
+.datetime_roll>div:first-child .date_grid>div {
+    left: auto;
+    right: 0%
+}
+
+.datetime_roll>div:last-child .date_grid>div {
+    left: 50%
+}
+
+.time_roll>div:nth-child(1) .date_grid>div {
+    right: 0.5em;
+    /*border: 1px solid red;*/
+}
+
+.time_roll>div .date_grid {
+    /*border: 1px solid black;*/
+}
+
+.time_roll>div .date_grid>div {
+    right: 1em;
+    /*border: 1px solid blue;*/
+}
+
+.date_btn {
+    color: #666666;
+    font-size: 1.6em;
+    line-height: 1em;
+    text-align: center;
+    padding: .8em 1em;
+    cursor: pointer
+}
+
+.date_btn_box {
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+    -webkit-box-align: stretch;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.gear {
+    float: left;
+    position: absolute;
+    z-index: 9902;
+    width: 5.5em;
+    margin-top: -6em
+}
+
+.date_roll>div .gear {
+    width: 100%
+}
+
+.date_roll>div:nth-child(1) .gear {}
+
+.date_roll>div:nth-child(2) .gear {}
+
+.date_roll>div:nth-child(3) .gear {}
+
+.datetime_roll>div .gear {
+    width: 100%;
+    text-indent: -25%
+}
+
+.datetime_roll>div:first-child .gear {
+    text-indent: -10%
+}
+
+.datetime_roll>div:last-child .gear {
+    text-indent: -50%
+}
+
+.time_roll>div .gear {
+    width: 100%;
+    /*text-indent: -70%;*/
+    text-align: center;
+}
+
+.time_roll>div:nth-child(1) .gear {
+    width: 100%;
+    text-indent: 10%
+}
+
+.tooth {
+    height: 2em;
+    line-height: 2em;
+    text-align: center
+}
+
+.time_sub {
+    color: #fb5555;
+}

@@ -1,0 +1,355 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2015-11-28 10:55:36
+ * @version $Id$
+ */
+/*顶部样式*/
+html {
+    background: #FFFFFF;
+}
+.register-icon-wrap {
+    position: absolute;
+    left: 17px;
+    top: 10px;
+    width: 52px;
+    height: 35px;
+    padding-top: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.register-header {
+    background: url('../../img/base/header.png') repeat-x 0px -259px;
+    color: #FFFFFF;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.register-header i {
+    display: block;
+    width: 30px;
+    height: 22px;
+    background: url("../../img/base/home-icons2.png") no-repeat;
+    -webkit-background-size: 28px auto;
+    -moz-background-size: 28px auto;
+    background-size: 28px auto;
+}
+
+.register-header i.register-icon {
+    background-position: 0 -65px;
+}
+
+.register-title {
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+/*内容部分*/
+.register-nav {
+    top: 50px;
+    padding: 0 5%;
+    border-width: 1px 0;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    background: #FFFFFF;
+}
+
+.register-user-form {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.register-promptli {
+    padding: 0 0 10px;
+}
+
+.register-user-form lable {
+    float: left;
+    width: 25%;
+    padding-top: 9px;
+    font-size: 16px;
+    cursor: auto;
+    padding-top: 
+}
+
+.register-user-form li {
+    position: relative;
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #D3D3D3;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.register-beizu{
+    padding: 20px 0;
+}
+
+.register-login {
+    width: 100%;
+    height: 40px;/*3rem*/
+    line-height: 40px;
+    background: #FB5555;
+    color: #FFF;
+    text-align: center;
+    overflow: hidden;
+    margin: 20px auto 0px auto;
+    border-bottom: 1px solid #c9caca;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.register-forgotpassword {
+    margin: 20px auto 0px auto;
+    font-size: 14px;
+    color: #FB5555;
+    text-decoration: underline;
+    text-align: right;
+}
+
+.register-securitycode {
+    margin: 40px auto 0px auto;
+    font-size: 14px;
+    color: #9c9c9c;
+    text-align: center;
+}
+
+.register-securitycode b {
+    margin: 40px auto 0px auto;
+    font-size: 14px;
+    font-weight: normal;
+    color: #FB5555;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.register-form li input[type=number], .register-form li input[type=password], .register-form li input[type=tel], .register-form li input[type=text] {
+    float: left;
+    width: 72%;
+    height: 35px;
+    display: inline-block;
+    border: none;
+    border-bottom: 1px solid #D3D3D3;
+    font-size: 1em;
+    outline: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.register-promptli input {
+    float: left;
+    width: 100%;
+    height: 35px;
+    display: inline-block;
+    border: none;
+    /*border-bottom: 1px solid #D3D3D3;*/
+    font-size: 1em;
+    outline: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+#register-info {
+    width: 100%;
+    height: 120px;
+    border: 1px solid #B2B2B2;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.register-sms {
+    position: absolute;
+    top: 13px;/*10px;*/
+    right: 0;/*1.2rem*/
+    width: 93px;/*83px*/
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    cursor: pointer;
+    font-size: .8em;
+    color: #FB5555;
+    border-radius: 6px;
+    border: 1px solid #CCC;
+    background-color: #E4E9EC;
+    opacity: 1;
+}
+
+.registerinputborder {
+    width: 70% !important;
+}
+
+.pg-nomemberlogin .noMemberLogin{
+
+    padding: 15px 0;
+}
+.pg-nomemberlogin .wechatbuy{
+    width: 85%;
+    margin: 0 auto;
+    height: 60px;
+    /* border: 2px dashed #828181; */
+    padding: 0 3%;
+    position: relative;
+    background: #fff;
+    border-radius: 5px;
+}
+.pg-nomemberlogin .wechatbuy .wechatbuyleft{
+    height: 60px;
+    display: inline-block;
+    left: 3.5%;
+    position: absolute;
+}
+.pg-nomemberlogin .wechatbuy .wechatbuyleft img{
+    vertical-align: middle;
+    width: auto;
+    margin-top: 10px;
+    height: 40px;
+}
+.pg-nomemberlogin .wechatbuyright{
+    width: 85%;
+    position: absolute;
+    left: 15%;
+    line-height: 60px;
+}
+.pg-nomemberlogin .wechatbuyright p{
+    font-size: 18px;
+    color: #231815;
+    text-align: left;
+    position: absolute;
+    right: 0;
+    width: 92%;
+
+}
+.pg-nomemberlogin .noMemberLoginBot{
+    width: 85%;
+    padding: 0 3% 3% 3%;
+    position: relative;
+    margin: 0 auto;
+    /* border: 2px dashed #b1b1b1; */
+    background: #fff;
+    border-radius: 5px;
+}
+.pg-nomemberlogin .noMemberLoginin{
+    height: 70px;
+    padding: 0 3%;
+    position: relative;
+}
+.pg-nomemberlogin .noMemberLogininimg {
+display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.pg-nomemberlogin .noMemberLogininimg img{
+    vertical-align: middle;
+    width: auto;
+    margin-top: 8px;
+    height: 45px;
+}
+.pg-nomemberlogin .noMemberLogininfont{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 8px;
+    width: 80%;
+}
+.pg-nomemberlogin .noMemberLogininfont p:first-child{
+      font-size: 18px;
+    text-align: left;
+}
+.pg-nomemberlogin .noMemberLogininfont p:nth-child(2),.noMemberLogininfont p:nth-child(3){
+    color: #90817d;
+    font-size: 12px;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: left;
+}
+.pg-nomemberlogin .noMemberLogin-form{
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.pg-nomemberlogin .noMemberLogin-form li{
+    position: relative;
+    width: 100%;
+    padding: 5px 0;
+    border-bottom: 1px solid #D3D3D3;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.pg-nomemberlogin .register-noMemberLogin{
+    margin: 30px auto 0px auto;
+    font-size: 14px;
+    color: #9c9c9c;
+    text-align: center;
+}
+
+.pg-nomemberlogin .register-noMemberLogin b {
+    margin: 30px auto 0px auto;
+    font-size: 14px;
+    font-weight: normal;
+    color: #FB5555;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.pg-nomemberlogin .register-forgotpassword-noMemberLogin{
+    margin: 15px auto 0px auto;
+    font-size: 14px;
+    color: #FB5555;
+    text-decoration: underline;
+    text-align: right;
+}
+
+.pg-nomemberlogin div[data-id="wrapper"] {
+    width: 100%;
+    background: #ebebeb;
+}
+.pg-nomemberlogin #memberloginMain {
+    padding-bottom: 75px;
+}   
+.pg-nomemberlogin .register-nav {
+    background: #ebebeb;
+}
+.pg-nomemberlogin .nomemberloginRjiantouspan{
+    position: absolute;
+    right: 20px;
+    top: 3px;
+    display: inline-block;
+
+}
+.pg-nomemberlogin .nomemberloginRjiantouspan img{
+    width: 10px;
+}
+.pg-nomemberlogin .register-nav {
+    top: 50px;
+    padding: 0px 0%;
+    border-width: 1px 0;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+}

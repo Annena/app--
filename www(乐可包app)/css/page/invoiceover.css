@@ -1,0 +1,57 @@
+@charset "UTF-8";
+.pg-invoiceover{
+    background: #fff;
+}
+.pg-invoiceover .invoice-nav{
+    width: 100%;
+    top: 50px;
+    padding-bottom: 63px;
+    border-width: 1px 0;
+    height: auto;
+    overflow: hidden;
+    padding: 0% 5% 5% 5%;
+}
+.pg-invoiceover .invoiceOverCon{
+    text-align: center;
+    color: #31b800;
+}
+.pg-invoiceover .invoiceOverCon img{
+    width: 90px;
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+.pg-invoiceover .invoice_email{
+    padding: 12px 0;
+    width: 100%;
+    border-bottom: 1px dashed #dfdfdf;
+    color: #333333;
+    margin-top: 38px;
+    text-align: center;
+}
+.pg-invoiceover .invoice_help{
+    margin-top: 9px;
+}
+.pg-invoiceover .invoice_help ul li{
+    color: #999;
+    line-height: 20px;
+    font-size: 12px;
+}
+.bottom_button div{
+    width: 150px;
+    height: 44px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 44px;
+    display: inline-block;
+    margin-top: 50px;
+    width: 47%;
+}
+.bottom_button .look{
+    color: #fb5555;
+    border: 1px solid #fb5555;
+    margin-right: 5%;
+}
+.bottom_button .back{
+    background: #fb5555;
+    color: #fff;
+}

@@ -1,0 +1,541 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2015-11-28 10:55:36
+ * @version $Id$
+ */
+/*顶部样式*/
+.pg-voucherslist .vouchers-icon-wrap {
+    position: absolute;
+    left: 17px;
+    top: 10px;
+    width: 52px;
+    height: 35px;
+    padding-top: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.pg-voucherslist .vouchers-header {
+    background: url('../../img/base/header.png') repeat-x 0px -259px;
+    color: #FFFFFF;
+    position: fixed;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.pg-voucherslist .vouchers-header i {
+    display: block;
+    width: 30px;
+    height: 22px;
+    background: url("../../img/base/home-icons2.png") no-repeat;
+    -webkit-background-size: 28px auto;
+    -moz-background-size: 28px auto;
+    background-size: 28px auto;
+}
+
+.pg-voucherslist .select-vouchers-icon-wrap {
+    position: absolute;
+    left: 17px;
+    top: 10px;
+    width: 52px;
+    height: 35px;
+    padding-top: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.pg-voucherslist .vouchers-header i.select-vouchers-icon {
+    background-position: 0 -65px;
+}
+
+.pg-voucherslist .vouchers-header i.select-edit-icon {
+    background-position: 0 -99px;
+}
+
+.pg-voucherslist .vouchers-header i.vouchers-icon {
+    background-position: 0 -65px;
+}
+
+.pg-voucherslist .vouchers-header i.edit-icon {
+    background-position: 0 -99px;
+}
+
+.pg-voucherslist .vouchers-title {
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+/*卡片部分*/
+.pg-voucherslist .vouchers-nav {
+    top: 50px;/*67*/
+    padding-bottom: 63px;
+    padding-top: 17px;
+    border-width: 1px 0;
+   /*  position: relative; */
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    background: #FFFFFF;
+    
+}
+
+.pg-voucherslist .selcet-vouchers-nav {
+    top: 54px;
+    padding-bottom: 63px;
+    border-width: 1px 0;
+    position: fixed;/*relative*/
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    background: #FFFFFF;
+    z-index: 999999;
+    padding-top: 20px; 
+}
+
+/*背景一*/
+.pg-voucherslist .vouchers-content {
+    height: 8rem;
+    width: 21rem;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 15px 12px 15px;
+    background: url(../../img/base/voucher.png) repeat-x 0px -1px;
+    background-size: 21rem;
+}
+
+.pg-voucherslist .vouchers-content-grey {
+    height: 8rem;
+    width: 21rem;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 15px 12px 15px;
+    background: url(../../img/base/voucher-grey.png) repeat-x 0px -1px;
+    background-size: 21rem;
+}
+
+.pg-voucherslist .vouchers-content-gq {
+    height: 8rem;
+    width: 21rem;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 15px 12px 15px;
+    background: url(../../img/base/voucher-gq.png) repeat-x 0px -1px;
+    background-size: 21rem;
+}
+
+.pg-voucherslist .vouchers-left {
+    width: 13rem;
+    margin-left: 20px;
+    margin-top: 7px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.pg-voucherslist .vouchers-right {
+    width: 5rem;
+    margin-left: 0.3rem;
+    margin-top: 0.3rem;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.pg-voucherslist .vorchers-explain-title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.pg-voucherslist .vorchers-explain-futitle {
+    font-size: 12px;
+    color: #fff;
+    /*margin-top: 2.8rem;*/
+    position: relative;
+    bottom: -4.1rem;
+}
+
+.pg-voucherslist .vorchers-right-title {
+    font-weight: normal;
+    font-size: 38px;/*52*/
+    color: #FFFFFF;
+    height: 4rem;/*4.5rem*/
+}
+
+.pg-voucherslist .vorchers-right-title span {
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.pg-voucherslist .vorchers-right-title b {
+    font-weight: normal;
+}
+
+.pg-voucherslist .vorchers-right-futitle {
+    font-size: 12px;
+    color: #fff;
+    padding-bottom: 12px;
+    line-height: 10px;
+    text-align: center;
+}
+
+.pg-voucherslist .vorchers-right-futitle p {
+    font-size: 12px !important;
+    color: #fff !important;
+    margin-left: 2px;
+    line-height: 15px;
+    text-align: center;
+}
+
+
+
+@media screen and (min-width: 319px) and (max-width: 374px)  {
+   .pg-voucherslist .vorchers-explain-title {
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    }
+
+    .pg-voucherslist .vorchers-explain-futitle {
+        font-size: 10px;
+        color: #fff;
+        /*margin-top: 3rem;*/
+        position: relative;
+        bottom: -2.9rem;
+    }
+
+    .pg-voucherslist .vorchers-right-title {
+        font-weight: normal;
+        font-size: 28px;/*42px*/
+        color: #FFFFFF;
+        height: 4rem;/*4.5rem*/
+    }
+
+    .pg-voucherslist .vorchers-right-title span {
+        font-weight: normal;
+        font-size: 26px;
+        color: #FFFFFF;
+    }
+
+    .pg-voucherslist .vorchers-right-futitle {
+        font-size: 10px;
+        color: #fff;
+        padding-bottom: 12px;
+    }
+
+    .pg-voucherslist .vorchers-right-futitle p {
+        font-size: 10px !important;
+        /*color: #FAABBF !important;*/
+    } 
+   /* 新增加的样式*/
+    .pg-voucherslist .vouchers-right {
+      width: 6rem;
+      margin-left: 0.5rem;
+      margin-top: 0.3rem;
+      text-align: center;
+      display: inline-block;
+      vertical-align: top;
+    }
+    .caipin_name {
+      height: 30px;
+      font-size: 12px;
+      margin-left: 5px;
+      overflow: hidden;
+      color: #fff;
+    }
+
+    .pg-voucherslist .caipin_num {
+      height: auto;
+      margin: 0px auto 0px;
+    }
+    
+    .pg-voucherslist .vorchers-right-futitle p {
+      line-height: 15px;
+    }
+    .pg-voucherslist .vouchers-left {
+      margin-top: 5px;
+      text-align: left;
+    }
+}
+@media screen and (min-width: 413px) and (max-width: 480px){
+    .pg-voucherslist .vouchers-right {
+      width: 5.1rem;
+    }
+    .pg-voucherslist .caipin_num {
+      height: auto;
+      margin:2px auto 12px;
+    }
+    .pg-voucherslist .vorchers-explain-futitle {
+      bottom: -3rem;
+    }
+    .pg-voucherslist .vorchers-right-futitle p {
+          margin-left: 10x;
+        }
+    .caipin_name {
+     height: 32px;
+      font-size: 13px;
+     
+    }
+}
+
+@media screen and (min-width: 374px) and (max-width: 413px)  {
+   .pg-voucherslist .vorchers-explain-title {
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    }
+
+    .pg-voucherslist .vorchers-explain-futitle {
+        font-size: 10px;
+       /* color: #FAABBF;*/
+        /*margin-top: 3rem;*/
+        position: relative;
+        bottom: -3rem;
+    }
+
+    .pg-voucherslist .vorchers-right-title {
+        font-weight: normal;
+        font-size: 28px;/*42px*/
+        color: #FFFFFF;
+        height: 4rem;/*4.5rem*/
+    }
+
+    .pg-voucherslist .vorchers-right-title span {
+        font-weight: normal;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+
+    .pg-voucherslist .vorchers-right-futitle {
+        font-size: 10px;
+      /*  color: #FAABBF;*/
+        padding-bottom: 12px;
+    }
+
+    .pg-voucherslist .vorchers-right-futitle p {
+        font-size: 10px !important;
+        /*color: #FAABBF !important;*/
+    } 
+    .caipin_name {
+          height: 32px;
+          font-size: 13px;
+        /*  margin-left: 5px;*/
+          overflow: hidden;
+          color: #fff;
+        }
+    .pg-voucherslist .vouchers-left {
+          
+          margin-top: 4px;
+          
+        }
+}
+/*领券后字体配置*/
+
+.pg-voucherslist .vorcher-grey-explain-title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #595757;
+}
+
+.pg-voucherslist .vorcher-grey-explain-futitle {
+    font-size: 12px;
+    color: #ABA9A9;
+    /*margin-top: 2.8rem;*/
+    position: relative;
+    bottom: -2.3rem;
+}
+
+.pg-voucherslist .vorcher-grey-right-title {
+    font-weight: normal;
+    font-size: 52px;
+    color: #595757;
+    height: 4rem;/*4.5rem*/
+}
+
+.pg-voucherslist .vorcher-grey-right-title span {
+    font-weight: normal;
+    font-size: 18px;
+    color: #595757;
+}
+
+.pg-voucherslist .vorcher-grey-right-futitle {
+    font-size: 12px;
+    color: #ABA9A9;
+    padding-bottom: 12px;
+    line-height: 10px;
+}
+
+.pg-voucherslist .vorcher-grey-right-futitle p {
+    font-size: 12px !important;
+    color: #ABA9A9 !important;
+    line-height: 10px;
+}
+
+@media screen and (max-width:319px) {
+   .pg-voucherslist .vorcher-grey-explain-title {
+    font-weight: bold;
+    font-size: 14px;
+    color: #595757;
+    }
+
+    .pg-voucherslist .vorcher-grey-explain-futitle {
+        font-size: 10px;
+        color: #ABA9A9;
+        margin-top: 2.8rem;
+    }
+
+    .pg-voucherslist .vorcher-grey-right-title {
+        font-weight: normal;
+        font-size: 42px;
+        color: #595757;
+        height: 4rem;/*4.5rem*/
+    }
+
+    .pg-voucherslist .vorcher-grey-right-title span {
+        font-weight: normal;
+        font-size: 16px;
+        color: #595757;
+    }
+
+    .pg-voucherslist .vorcher-grey-right-futitle {
+        font-size: 10px;
+        color: #ABA9A9;
+        padding-bottom: 12px;
+    }
+
+    .pg-voucherslist .vorcher-grey-right-futitle p {
+        font-size: 10px !important;
+        color: #ABA9A9 !important;
+    } 
+}
+
+/* 没有更多抵用券 */
+
+.pg-voucherslist .no-more {
+    font-size: 14px;
+    color: #595757;
+    height: 50px;
+}
+
+.pg-voucherslist .no-more span {
+    padding-left: 5px;
+    color: #e60012;
+    font-weight: bold;
+}
+
+.pg-voucherslist .nowu {
+    font-size: 14px;
+    color: #595757;
+    margin: 0 auto;
+}
+
+/*选中抵用券*/
+
+.pg-voucherslist .wancheng-icon-wrap {
+  position: absolute;
+  right: 17px;
+  top: -3px;
+  width: 37px;
+  height: 35px;
+  padding-top: 4px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.pg-voucherslist .vorchers-check {
+  position: absolute;
+  margin-top: 12%;
+  left: 4%;
+  width: 28px;
+  border-radius: 45px;
+  background: url(../../img/base/check.png) no-repeat -6px 1px;
+  background-size: 31px;
+  height: 28px;
+  color: #FFFFFF;
+}
+
+.pg-voucherslist .quxiao-icon-wrap {
+    position: absolute;
+    left: 17px;
+    top: -3px;
+    width: 52px;
+    height: 35px;
+    padding-top: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/*抵用券已使用*/
+.overdued-site {
+    position: relative;
+    display: block;
+    width: 101px;
+    height: 90px;
+    left: 172px;
+    top: -95px;
+    overflow: hidden;
+    background: url(../../img/base/coupon.png) 6px 0;
+}
+
+/*抵用券已过期 */
+.overdata-site {
+    position: relative;
+    display: block;
+    width: 101px;
+    height: 90px;
+    left: 172px;
+    top: -95px;
+    overflow: hidden;
+    background: url(../../img/base/coupon.png) 6px -133px;
+}
+
+.overdata-unavailable {
+    position: relative;
+    display: block;
+    width: 101px;
+    height: 90px;
+    left: 144px;
+    top: -95px;
+    overflow: hidden;
+    background: url(../../img/base/coupon.png) -142px -128px;
+}
+
+
+.caipin_name{
+   height: 30px;
+   font-size: 12px;
+   margin-left:0px;
+   overflow: hidden;
+   color: #fff; 
+}
+.pg-voucherslist .caipin_num{
+   height: auto;
+}
+
+.pg-voucherslist .caipin_num span{
+    font-size:28px;
+    color:#ffdc00;
+}
+
+.pg-voucherslist .caipin_num i{
+    font-style: normal;
+    font-size: 12px;
+}

@@ -1,0 +1,104 @@
+/* 公共菜单 */
+.menulist {
+    color: #DDC46F;
+    position: absolute;
+    z-index: 100;
+    right: 0;
+    top: 50px;
+    width:190px;
+    font-size: 0.8em;
+    cursor: pointer;
+    /*-webkit-transition: transform 4s ease;*/
+}
+.menulist ul {
+    font-size: 1.2em;
+}
+.menulist .mycount {
+    border-top: 1px solid #60280B;
+    background-color: #360723;
+}
+.menulist .fleftimg {
+    float: left;
+    margin: 14px 0;
+    padding-left: 14px;
+
+}
+.menulist .fleftimg img {
+    border: 1px solid #60270a;
+}
+.menulist .info {
+    float: left;
+    margin-left: 10px;
+}
+.menulist .title {
+    display: block;
+    font-size: 1.3em;
+    margin: 13px 0 8px 0;
+    overflow: hidden;
+}
+
+.menulist ul li {
+    padding: 0 0 0 37px;
+    background: #360723 url('/img/home/nav_Icons.png') no-repeat;
+    background-size: 11% 676%;
+    border-top: 1px solid #60280B;
+    line-height: 2.9em;
+    /*-webkit-transition: transform 4s ease;*/
+}
+.menulist ul li:hover {
+    /*background-color: #40142E;*/
+    /*transform: translate(50px, 0);*/
+}
+.menulist ul li.count {
+    background-position: 14px -2px;
+}
+.menulist ul li.order {
+    background-position: 14px -35px;
+}
+.menulist ul li.set {
+    background-position: 14px -77px;
+}
+.menulist ul li.opinon {
+    background-position: 14px -116px;
+}
+.menulist ul li.affiliate {
+    background-position: 14px -266px;
+}
+.menulist ul li.quit {
+    background-position: 14px -154px;
+}
+.menulist ul li.integral {
+    position: relative;
+    background-position: 14px -234px;
+}
+.menulist ul li.integral span {
+    position: absolute;
+    left: 75px;
+    top: 5px;
+    width: 10px;
+    height: 10px;
+    background: red;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+/* 登录注册按钮 */
+.menulist .login-btn,.menulist .register-btn {
+    width: 75px;
+    display: inline-block;
+    margin: 20px 0 20px 13px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    text-shadow:0 0 0 ;
+    font-weight: bolder !important;
+    color: #360723;
+    background-color: #DDC46F !important;
+}
+
+/* 菜单动画 */
+.show_menu {
+   /* -webkit-transform: translate(50px, 0);
+    transform: translate(50px, 0);*/
+}

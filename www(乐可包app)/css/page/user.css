@@ -1,0 +1,561 @@
+/* 公用部分 */
+
+.pg-login .page-content,
+.pg-forgetpwd .page-content,
+.pg-resetpwd .page-content,
+.pg-modifyinfo .page-content,
+.pg-modifyphonenumber .page-content {
+    padding: 0 5%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.user-form {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.user-form li {
+    position: relative;
+    /*display: block;*/
+    width: 100%;
+    padding: 10px 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.user-form lable {
+    float: left;
+    width: 25%;
+    padding-top: 9px;
+    font-size: 1em;
+    cursor: auto;
+}
+
+.user-form lable span {
+    display: inline-block;
+    width: 31px;
+}
+
+.user-form input::-webkit-input-placeholder {
+    font-size: 0.9em;
+}
+
+.user-form input:-moz-placeholder {
+    font-size: 0.9em;
+}
+
+.user-form li input[type="text"],
+.user-form li input[type="password"],
+.user-form li input[type="tel"],
+.user-form li input[type="number"] {
+    float: left;
+    width: 72%;
+    height: 35px;
+    display: inline-block;
+    border: none;
+    border-bottom: 1px solid #B2B2B2;
+    font-size: 1em;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/*.user-form li input[type="text"]:hover,
+.user-form li input[type="password"]:hover {
+    border-bottom: 1px solid #360723;
+}*/
+
+.user-form li span {
+    display: inline-block;
+    color: red;
+    padding-top: 6px;
+}
+
+
+/* 系统设置,乐食帮助公用 */
+
+.systemli {
+    font-family: XinGothic-SinaWeibo, Microsoft Yahei, helvetica, arial, Hiragino Sans GB, Droid san-sreif, enQuanYi Micro Hei;
+    /*2014-11-25新增样式定义*/
+    background-color: #FFFFFF;
+    padding: 0;
+}
+
+.systemli ul {
+    background-color: #FFFFFF;
+}
+
+.systemli ul li {
+    color: #929191;
+    /*border: 1px solid #E5E5E5;**/
+    margin-bottom: 13px;
+    background: #F6F4F4;
+}
+
+.systemli .content {
+    height: 45px;
+    /*width: 88%;*/
+    padding: 0 5%;
+    line-height: 45px;
+    border: 1px solid #E5E5E5;
+    cursor: pointer;
+    background: url('/img/base/iconsGray.png') no-repeat 95% center;
+}
+
+
+/*设置样式*/
+
+.systemli .chunk {
+    width: 1%;
+    height: 45px;
+    border: 1px solid #E39C00;
+    background: #E39C00;
+    float: left;
+}
+
+.systemli .chunkt {
+    width: 1%;
+    height: 45px;
+    background: #AE5DA1;
+    border: 1px solid #AE5DA1;
+    float: left;
+}
+
+.systemli .chunks {
+    width: 1%;
+    height: 45px;
+    background: #556FB5;
+    border: 1px solid #556FB5;
+    float: left;
+}
+
+
+/* 主按钮 */
+
+.main-btn {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    border: none;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    background-color: #7C0046;
+    cursor: pointer;
+}
+
+
+/*.main-btn:hover {
+    opacity: 0.8;
+}*/
+
+
+/* 获取短信验证码 */
+
+.get-sms {
+    position: absolute;
+    top: 10px;
+    right: 1.2em;
+    width: 83px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 0.8em;
+    border: 1px solid #CCCCCC;
+    background-color: #E4E9EC;
+    opacity: 1;
+}
+
+.no-get-sms {
+    opacity: 0.7;
+}
+
+.optional {
+    position: absolute;
+    top: 10px;
+    right: 1.2em;
+    line-height: 41px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 0.8em;
+    opacity: 1;
+}
+
+
+/* 登陆 */
+
+.pg-login .forgetPwd-btn {
+    margin: 50px 0 10px 0;
+    text-align: right;
+    color: #898989;
+    cursor: pointer;
+}
+
+.pg-login #registerhref {
+    margin: 30px 30px 0 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.pg-login #registerhref-btn {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    color: #3E4346;
+    background-color: #E3E9ED;
+}
+
+.pg-login #registerhref-btn:hover {
+    /*opacity: 0.6;*/
+}
+
+
+/* 注册 */
+
+.pg-register #register-content {
+    top: 50px;
+    left: 0;
+    right: 0;
+    padding: 0 5%;
+    margin: 10px 0;
+}
+
+.pg-register #register-msg {
+    width: 100%;
+    color: red;
+}
+
+.pg-register #check-btn {
+    float: left;
+    width: 25%;
+    height: 40px;
+    background: url('/img/base/registerCheckbox.png') no-repeat 47px 4px;
+    background-size: 35% 60%;
+}
+
+.pg-register .register-discount-msg {
+    float: left;
+    width: 75%;
+}
+
+.pg-register .register-discount-msg p {
+    margin: 2px 0;
+    font-size: 0.8em;
+    color: #B0B0B0;
+}
+
+.pg-register .register-discount-msg p.first-line {
+    font-size: 1em;
+    color: red;
+    margin: 8px 0 6px 0;
+}
+
+
+/* 个人信息 */
+
+.pg-userinfo #userinfo {
+    top: 50px;
+    left: 0;
+    right: 0;
+    padding: 0 5%;
+    background: #F6F4F4;
+    font-family: XinGothic-SinaWeibo, Microsoft Yahei, helvetica, arial, Hiragino Sans GB, Droid san-sreif, enQuanYi Micro Hei;
+}
+
+.pg-userinfo #userinfo div[data-id="scroller"] {
+    padding: 5% 0;
+}
+
+
+/* 修改资料相关样式 */
+
+.pg-userinfo .userinfoborder {
+    border: 1px solid #DCDCDC;
+    border-bottom: none;
+    background: #fff;
+    margin-top: 5%;
+}
+
+.pg-userinfo .userborder {
+    border: 1px solid #DCDCDC;
+    background: #fff;
+}
+
+.pg-userinfo .icon_main {
+    float: left;
+    width: 25px;
+    height: 46px;
+    margin-left: 4%;
+    background: url(/img/base/userinfo.png) no-repeat;
+    background-size: 70px auto;
+}
+
+.pg-userinfo .usersourceicon {
+    background-position: 0 13px;
+}
+
+.pg-userinfo .userphoneicon {
+    background-position: 0 -27px;
+}
+
+.pg-userinfo .userpwdicon {
+    background-position: 0 -134px;
+}
+
+.pg-userinfo .useradressicon {
+    background-position: 0 -65px;
+}
+
+.pg-userinfo .userhomeicon {
+    background-position: 0 -100px;
+}
+
+.pg-userinfo .groupicon {
+    background-position: -41px -64px;
+}
+
+.pg-userinfo .usersource {
+    height: 50px;
+    border-bottom: 1px solid #DCDCDC;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.pg-userinfo .usersourcefont {
+    width: 86%;
+    float: right;
+    color: #80898f;
+    font-size: 1em;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+.pg-userinfo .usersourcefont span {
+    width: 10px;
+    height: 50px;
+    float: right;
+    margin-right: 5%;
+    background: url('/img/base/iconsGray.png') no-repeat center;
+}
+
+
+}
+.pg-userinfo .userinfotop {
+    border: 1px solid #DCDCDC;
+    background: #fff;
+}
+.pg-userinfo .userinfoContent {
+    padding: 7px 15px;
+    font-size: 0.9em;
+    line-height: 2.3em;
+}
+.pg-userinfo .userHeadImg {
+    float: left;
+    width: 22%;
+    margin-right: 3%;
+    padding-top: 6px;
+}
+.pg-userinfo .userHeadImg img {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #b7b7b7;
+}
+.pg-userinfo .userInfomation {
+    float: left;
+    width: 70%;
+}
+.pg-userinfo .userInfomation p {
+    display: block;
+}
+.pg-userinfo .userInfomation b {
+    font-size: 1.1em;
+}
+.pg-userinfo .userId {
+    padding: 0px 15px 15px 15px;
+    font-size: 0.9em;
+}
+
+/* 意见反馈 */
+.pg-feedback div[data-id="wrapper"] {
+    width: 100%;
+    padding: 0 5%;
+    top: 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.pg-feedback div[data-id="scroller"],
+.pg-searchbusiness div[data-id="scroller"],
+.pg-cardlist div[data-id="scroller"],
+.pg-homecard div[data-id="scroller"] {
+    padding-bottom: 50px;
+}
+.pg-orderdetails div[data-id="scroller"] {
+    padding-bottom: 40px;
+}
+.pg-payorder div[data-id="scroller"] {
+    padding-bottom: 40px;
+}
+.pg-payorder #voucherList {
+    padding-bottom: 150px;
+}
+.pg-dishes div[data-id="scroller"] {
+    padding-bottom: 60px;
+}
+
+/* 调整下面这个值会调整菜品左侧分类列表的高度 */
+.pg-dishes ul[data-id="scroller"] {
+    padding-bottom: 90px;
+}
+.pg-feedback #feedBack-info {
+    width: 100%;
+    height: 120px;
+    border: 1px solid #B2B2B2;
+    padding: 10px;
+    font-size: 16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.pg-feedback #feedBack-info:hover {
+    /*border: 1px solid #360723;*/
+}
+.pg-feedback .tj-btn {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    border: none;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    background-color: #7C0046;
+}
+
+/* 意见反馈-点评详情 */
+.pg-feedback #comments-info {
+    color: #585657;
+}
+.pg-feedback .title_bar {
+    position: relative;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    background-color: #e4e4e4;
+    color: #97366C;
+    font-size: 0.9em;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.pg-feedback .title_bar_icon {
+    float: left;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    background: url(/img/base/leshicons.png) no-repeat -66px -141px;
+    background-size: 900% 900%;
+}
+
+/*意见反馈提示信息*/
+.pg-feedback .prompt {
+    font-size: 14px;
+    color: #807E7E;
+    /*border: dashed 1px #A9A3A3;
+    background: #F7F7F7;*/
+    
+    padding: 5px;
+    line-height: 25px;
+}
+.pg-feedback .prompt p {
+    font-size: 14px;
+    color: #777777;
+    padding-top: 4px;
+}
+.pg-feedback .prompt span {
+    font-size: 1em;
+    color: #000000;
+    padding: 4px;
+    border: 1px #B5B3B3 solid;
+    cursor: pointer;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#FCFDFD), to(#A6A6A6));
+}
+.pg-feedback .promptli {
+    padding: 0px 0px 10px 0px;
+}
+
+/* 系统设置 */
+.pg-systemset #system-set {
+    padding: 10px;
+}
+
+/* 使用帮助 */
+.pg-help #leshi-help {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.pg-help #leshi-help div[data-id="scroller"] {
+    padding: 10px 0;
+}
+.pg-help #help-page .systemli a {
+    color: #434343;
+}
+.pg-help #help-page .btn {
+    display: inline-block;
+    width: 42%;
+    height: 45px;
+    margin-top: 5%;
+    margin-left: 5%;
+    line-height: 45px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 0;
+    background-color: #673252;
+}
+.pg-help #help-page .btn:hover {
+    /*opacity: 0.8;*/
+}
+.pg-help .help-content {
+    padding-left: 20px;
+    font-size: 0.9em;
+    line-height: 4em;
+    background-color: #FFF;
+}
+.pg-help .help-content p {
+    line-height: 21px;
+    padding: 10px 0;
+}
+.pg-help .help-content p b {
+    color: #FF0000;
+}
+.pg-help .help-content img {
+    width: 50%;
+    margin-left: 30px
+}
+.pg-help .content-select {
+    color: #FFFFFF;
+    background-color: #673252;
+}

@@ -1,0 +1,62 @@
+.comment-list li {
+    font-family: XinGothic-SinaWeibo, Microsoft Yahei, helvetica, arial, Hiragino Sans GB, Droid san-sreif, enQuanYi Micro Hei;
+    border-bottom: 1px dotted #D8D3D3;
+    padding: 10px 0;
+    font-size: 0.9em;
+}
+.comment-list li.reply-comment {
+    /*background: #F7F7F7;*/
+}
+
+.comment-list .comment-border {
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+    display: -moz-box;
+    display: -webkit-box;
+}
+.comment-list .comment-img {
+    width: 10%;
+}
+.comment-list .comment-img img {
+    width: 30px;
+    height: 30px;
+}
+.comment-list .comment-title {
+    width: 88%;
+    color: #A07D91;
+    padding-left: 2%;
+}
+.comment-list .comment-reply-title {
+    color: #FF0000;
+}
+
+.comment-list .comment-title span {
+    float: right;
+    color: #868686;
+}
+
+.comment-list .comment-del {
+    color: #7C0046;
+    text-align: right;
+    height: 25px;
+    cursor: pointer;
+    line-height: 25px;
+    padding-right: 5px;
+    overflow: hidden;
+}
+
+.comment-list .comment-del img {
+    width: 17px;
+}
+
+.comment-list .comment-txt {
+    color: #7A7474;
+    line-height: 25px;
+    width: 100%;
+    padding-left: 12%;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}

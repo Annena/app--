@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2015-11-28 10:55:36
+ * @version $Id$
+ storedValueRecordList
+ */
+.storeValueRecord-title{
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+}    
+.storeValueRecordContent .storeRecord-null{
+    background: #f1f1f1;
+    text-align: center;
+    margin-top: 60%;
+}
+.storeValueRecordContent .storeRecord-null img{
+    width: 50%;
+}
+/*储值记录*/
+.storeValueRecordContent .storeValueRecord-list{
+    
+}
+
+.storeValueRecordContent .storeValueRecord-list li{
+    margin-left: 16px;
+    margin-right: 16px;
+    border-bottom: 1px solid #DFDFDF;
+    height: 84px;
+}
+
+.storeValueRecordContent .storeValueRecord-list .vouchers-nav{
+    top:50px;
+    border-width: 1px 0;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    background: #FFFFFF;
+    height: auto;
+    padding-bottom: 63px;
+}
+.storeValueRecordContent .storeRecord-list-left{
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    width:62%;
+}
+.storeValueRecordContent .storeRecord-list-left p {
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+}
+.storeValueRecordContent .storeRecord-list-left span{
+    font-size: 12px;
+    color: #999;
+}
+.storeValueRecordContent .storeRecord-list-right{
+    float: right;
+    height: 100%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.storeValueRecordContent .storeRecord-list-left-top{
+    position: absolute;
+    top: 0px;
+    line-height: 20px;
+}
+.storeValueRecordContent span.typeName{
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+    display: inline-block;
+    margin-right: 6px;
+}
+.storeValueRecordContent span.TimeData{
+    font-size: 12px;
+    color: #999;
+/*    margin-left: 64px;*/
+/*    margin-top: 1px;*/
+    display: inline-block;
+/*    height: 19px;
+    line-height: 19px;*/
+}
+
+.storeValueRecordContent p.shopName{
+    font-size: 12px;
+    color: #666;
+    margin-top: 25px;
+}
+.storeValueRecordContent .fontColorRed{
+    color: red;
+}
+.storeValueRecordContent .fontColorGreen{
+    color: green;
+}
+.storeValueRecordContent .interPullDown{
+    /*margin-top: 50px;*/
+}

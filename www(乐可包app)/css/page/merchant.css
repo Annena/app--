@@ -1,0 +1,728 @@
+@charset "UTF-8";
+
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2015-11-28 10:55:36
+ * @version $Id$
+ */
+
+
+/*顶部样式*/
+
+.pg-merchanthome .shop-header {
+    width: 100%;
+    height: 13rem;
+    /* height: auto; */
+    background: #fff url(../../img/base/shop-bg.png) repeat-x;
+    background-size: 75%;
+    position: static;
+}
+
+.pg-merchanthome #merchantHomeScroll {
+    width: 100%;
+}
+
+.pg-merchanthome .shop-header-none {
+    width: 100%;
+    height: 13rem;
+    position: static;
+    min-height: 198px;
+    background: #fff;
+}
+
+.pg-merchanthome .shop-header-two {
+    width: 100%;
+    background: #ffffff url(../../img/base/shop-bg02.png);
+    background-size: 75%;
+    position: static;
+}
+
+.pg-merchanthome .shop-header-three {
+    width: 100%;
+    background: #ffffff url(../../img/base/shop-bg03.png);
+    background-size: 75%;
+    position: static;
+}
+
+.pg-merchanthome .shop-header i {
+    display: block;
+    width: 1.9rem;
+    height: 2rem;
+    background: url("../../img/base/back.png") no-repeat;
+    -webkit-background-size: 1.6rem auto;
+    -moz-background-size: 1.6rem auto;
+    background-size: 1.6rem auto;
+}
+
+.pg-merchanthome .merchant-back-icon-wrap {
+    /* position: absolute;
+    left: 1rem;
+    top: 1rem;
+    width: 3.25rem;
+    height: 2.2rem;*/
+    padding-top: 0.30rem;
+    /*0.25rem*/
+    /*-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;*/
+}
+
+.pg-merchanthome .back-icon-wrap span {
+    display: block;
+    width: 38px;
+    height: 22px;
+    font-size: 12px;
+    margin-top: -14px;
+    text-align: center;
+    color: #E4D1D1;
+}
+
+.pg-merchanthome .shop-edit-header-i {
+    display: block !important;
+    width: 30px !important;
+    height: 22px !important;
+    background: url("../../img/base/home-icons2.png") no-repeat !important;
+    -webkit-background-size: 28px auto !important;
+    -moz-background-size: 28px auto !important;
+    background-size: 28px auto !important;
+}
+
+.pg-merchanthome .shop-edit-icon {
+    background-position: 3px -31px !important;
+    /*0 -31*/
+}
+
+.pg-merchanthome .shop-edit-icon-wrap {
+    position: absolute;
+    right: 1rem;
+    top: 0.485rem;
+    width: 2.6rem;
+    /*3.25rem*/
+    height: 2.2rem;
+    padding-top: 0.25rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.pg-merchanthome .shop-edit-icon-wrap span {
+    display: block;
+    width: 53px;
+    height: 22px;
+    font-size: 12px;
+    margin-top: -14px;
+    text-align: left;
+    color: #fff;
+}
+
+.pg-merchanthome .shop-toplogo {
+    width: 5rem;
+    height: 5rem;
+    margin: 3.5rem auto 0 auto;
+}
+
+
+/* vip图片 */
+
+.pg-merchanthome .shop-logo-v {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100px;
+    border: 1px solid #E24273;
+    margin: 3.5rem auto 0 auto;
+    background: #FFFFFF;
+    /* overflow: hidden; */
+    position: relative;
+}
+
+.pg-merchanthome .shop-toplogo-v {
+    width: 5rem;
+    height: 5rem;
+    margin: 3.5rem auto 0 auto;
+    position: relative;
+}
+
+.pg-merchanthome .shop-logo-v i {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+.pg-merchanthome .shop-logo-img-v {
+    width: 5rem;
+    height: 5rem;
+    /*padding: 6px;*/
+    border-radius: 50%;
+}
+
+
+/* vip图片结束 */
+
+
+/*最新消息新消息提醒样式*/
+
+.pg-merchanthome .new_tips {
+    margin-top: 0.5rem;
+    margin-right: 0.9rem;
+    color: #fff;
+    float: right;
+    width: 7rem;
+    text-align: center;
+    line-height: 1.9rem;
+    height: 2.2rem;
+    font-size: 10px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPEAAABECAYAAABQzNPPAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo3QTBEOEJCQjgyMkYxMUU2QjBBOUVGNjZEMDg0QkFDOCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo3QTBEOEJCQzgyMkYxMUU2QjBBOUVGNjZEMDg0QkFDOCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjdBMEQ4QkI5ODIyRjExRTZCMEE5RUY2NkQwODRCQUM4IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjdBMEQ4QkJBODIyRjExRTZCMEE5RUY2NkQwODRCQUM4Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+yJvcbwAAAjBJREFUeNrs2j1rFFEAheHZiN0GCwt7f4LETgSxsIkRlUVEC0GxXxsLO7WxESv/gVhoIfGDVFY2ErCRFDZBRUhAUihBxKDxXDJCEPyKSzI3PA8ckEl2iwsvM2a3tzIYNK2j2TDbn/UboIuWs9nsZvaoXBhrf3A9m84OCRg6rd92+rDttunlTjzZXgDqM1XuxJecA1RrWCKecA5QrYkS8bhzgGqNjzkDqJuIQcSAiAERg4gBEQMiBkQMIgZEDIgYEDGIGBAxIGJAxCBiQMSAiAERg4gBEQMiBkQMIgZEDIgYRAyIGBAxIGIQMSBiQMSAiEHEgIgBEQMiBhEDIgZEDPwu4lXHANVaLREvOgeo1mKJ+IlzgGrN9FYGg735x4tsl/OAqnzI9pU78Xw2mS04E6jGQtvtfLkT/7jYz06XsrPdzqjzDmZ7Rvyez7O3jrbTlton57vZcrmwPmLqciB7mu0c0fs9yw5nXxxtXXxOXK8S3eURvdfr7ISARczmu5Xd/8/3KI9kU9l7xyliNl/5os757NUGX/8tO5O9dJQiZut8zE5mnzbw2ivZtCMUMVtvLrv4j6+5k91wdCKmO0qUt//yd8tHSRca35sXMZ0zzGb/8DvvsuPZZ8clYrqnfERUPvhf+sXPy/+bjzW+nSdiOu1NdrZZ+8vzeuXR+Vyz9m0fREzHzWTXfrp2NbvnaLYfX7vcvnZkj7MjbbynGn/IciemKl/bx+oH7WO0gLep7wIMAAy7UhJDx8QTAAAAAElFTkSuQmCC) center center no-repeat;
+    background-size: 92%;
+    font-weight: normal;
+    -webkit-transition: display 5s linear;
+    transition: display 5s linear;
+}
+
+
+/*新消息提示样式*/
+
+.pg-merchanthome .storedvalue-icon,
+.pg-merchanthome .collar-icon,
+.pg-merchanthome .shop-icon-features {
+    position: relative;
+}
+
+.pg-merchanthome .new_tip_circle {
+    position: absolute;
+    top: -5%;
+    right: 19%;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fb5555;
+}
+
+.pg-merchanthome .list-avatar .new_tip_circle {
+    position: absolute;
+    top: -20%;
+    right: -11%;
+}
+
+.pg-merchanthome .shop-logo {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100px;
+    border: 1px solid #E24273;
+    background: #FFFFFF;
+    margin: 3.5rem auto 0 auto;
+    overflow: hidden;
+}
+
+.pg-merchanthome .shop-logo-img {
+    width: 5rem;
+    height: 5rem;
+    /*padding: 6px;*/
+    border-radius: 50%;
+}
+
+.pg-merchanthome .shop-logo-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    line-height: 36px;
+}
+
+.pg-merchanthome .shop-logo-money {
+    font-size: 14px;
+    line-height: 23px;
+    color: #000;
+    margin: 0 auto;
+}
+
+.pg-merchanthome .shop-logo-money ul {
+    /*margin: 0 15px;*/
+}
+
+.pg-merchanthome .shop-logo-money ul li {
+    font-size: 14px;
+    text-align: left;
+    display: inline-block;
+}
+
+.pg-merchanthome .shop-logo-money ul li span {
+    font-size: 14px;
+    color: #ff77a8;
+    margin-right: 3px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .pg-merchanthome .shop-logo-title {
+        font-size: 16px;
+        font-weight: bold;
+        color: #000000;
+        line-height: 36px;
+    }
+    .pg-merchanthome .shop-logo-money {
+        font-size: 12px;
+        line-height: 23px;
+        color: #000;
+        margin: 0 auto;
+    }
+    .pg-merchanthome .new_tip_circle {
+        position: absolute;
+        top: -6%;
+        right: 18%;
+    }
+    .pg-merchanthome .list-avatar .new_tip_circle {
+        position: absolute;
+        top: -18%;
+        right: -14%;
+    }
+    .pg-merchanthome .shop-nonelogo-title {
+        font-size: 16px;
+        font-weight: bold;
+        color: #000000;
+        line-height: 36px;
+        margin-top: 7.1875rem;
+    }
+    .pg-merchanthome .shop-logo-money ul {
+        /*margin: 0 15px;*/
+    }
+    .pg-merchanthome .shop-logo-money ul li {
+        font-size: 12px;
+        text-align: left;
+        display: inline-block;
+    }
+    .pg-merchanthome .shop-logo-money ul li span {
+        font-size: 12px;
+        font-weight: bold;
+        color: #ff77a8;
+        margin-right: 3px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 414px) {
+    .pg-merchanthome .shop-logo-title {
+        font-size: 18px;
+        font-weight: bold;
+        color: #000000;
+        line-height: 36px;
+    }
+    .pg-merchanthome .shop-logo-money {
+        font-size: 14px;
+        line-height: 23px;
+        color: #000;
+        margin: 0 auto;
+    }
+    .pg-merchanthome .shop-logo-money ul {
+        /*margin: 0 15px;*/
+    }
+    .pg-merchanthome .shop-logo-money ul li {
+        font-size: 12px;
+        text-align: left;
+        display: inline-block;
+    }
+    .pg-merchanthome .shop-logo-money ul li span {
+        font-size: 12px;
+        font-weight: bold;
+        color: #ff77a8;
+        margin-right: 3px;
+    }
+}
+
+
+/*主要内容*/
+
+.pg-merchanthome .shop-nav {
+    width: 100%;
+    border-width: 1px 0;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    background: #ededed;
+    margin-top: -1px;
+}
+
+
+/*t图标部分*/
+
+.pg-merchanthome .shop-icon-features {
+    box-sizing: border-box;
+    line-height: 21px;
+    width: 23%;
+    height: 5rem;
+    display: inline-block;
+}
+
+
+/* 商户首页八个图标 有颜色的图片 */
+
+.pg-merchanthome .meal-icon {
+    box-sizing: border-box;
+    height: 3rem;
+    background-image: url(../../img/base/dc.png);
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.pg-merchanthome .pay-icon {
+    box-sizing: border-box;
+    height: 3rem;
+    background-image: url(../../img/base/zf.png);
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.pg-merchanthome .storedvalue-icon {
+    box-sizing: border-box;
+    height: 3rem;
+    background-image: url(../../img/base/cz.png);
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.pg-merchanthome .collar-icon {
+    box-sizing: border-box;
+    height: 3rem;
+    background-image: url(../../img/base/dyz.png);
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.pg-merchanthome .reviews-icon {
+    box-sizing: border-box;
+    height: 3rem;
+    background-image: url(../../img/base/dd.png);
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.pg-merchanthome .order-icon {
+    box-sizing: border-box;
+    height: 3rem;
+    background-image: url(../../img/base/sc.png);
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.pg-merchanthome .take-icon {
+    box-sizing: border-box;
+    height: 3rem;
+    background-image: url(../../img/base/wm.png);
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.pg-merchanthome .reward-icon {
+    box-sizing: border-box;
+    height: 3rem;
+    background-image: url(../../img/base/ds.png);
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.pg-merchanthome .integral-icon {
+    box-sizing: border-box;
+    height: 3rem;
+    background-image: url(../../img/base/integral-icon.png);
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+/* 商户首页八个图标 灰色颜色的图片 */
+
+.pg-merchanthome .h_meal-icon {
+    background-image: url(../../img/base/hd.png) !important;
+}
+
+.pg-merchanthome .h_pay-icon {
+    background-image: url(../../img/base/hf.png) !important;
+}
+
+.pg-merchanthome .h_storedvalue-icon {
+    background-image: url(../../img/base/hc.png) !important;
+}
+
+.pg-merchanthome .h_collar-icon {
+    background-image: url(../../img/base/hdy.png) !important;
+}
+
+.pg-merchanthome .h_reviews-icon {
+    background-image: url(../../img/base/hdd.png) !important;
+}
+
+.pg-merchanthome .h_order-icon {
+    background-image: url(../../img/base/hss.png) !important;
+}
+
+.pg-merchanthome .h_take-icon {
+    background-image: url(../../img/base/hk.png) !important;
+}
+
+.pg-merchanthome .h_reward-icon {
+    background-image: url(../../img/base/hds.png) !important;
+}
+
+.pg-merchanthome .h_integral-icon {
+    background-image: url(../../img/base/integral-icon01.png) !important;
+}
+
+.pg-merchanthome .shop-icon-features .meal-title {
+    font-size: 12px;
+    line-height: 32px;
+    text-align: center;
+    color: #222222;
+}
+
+.pg-merchanthome .two-line {
+    padding-top: 0.3125rem;
+    margin: 0 15px;
+    margin-bottom: 0.4495rem;
+}
+
+.pg-merchanthome .one-line {
+    margin: 0 0.9375rem;
+}
+
+.pg-merchanthome .icon-back {
+    padding-top: 0.625rem;
+    background: #FFFFFF;
+    /* border-bottom: 1px solid #c9caca; */
+}
+
+
+/*店铺列表*/
+
+.pg-merchanthome .shop-list {
+    width: 100%;
+    margin-top: 0.625rem;
+    height: 3.125rem;
+    line-height: 3.125rem;
+    background: #FFF;
+    text-align: left;
+    /* padding-left: 0.9375rem; */
+    /* border-top: 1px solid #c9caca; */
+    /* border-bottom: 1px solid #c9caca; */
+}
+
+.pg-merchanthome .shop-list-title {
+    /* width: 90%; */
+    /* float: left; */
+    font-weight: bold;
+    height: 100%;
+    padding: 0 0.9375rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .pg-merchanthome .shop-list-title {
+        /* width: 90%; */
+        /* float: left; */
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .pg-merchanthome .news-list-title {
+        height: 3.125rem;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 3.125rem;
+        text-align: left;
+        padding-left: 0.9375rem;
+        /* border-top: 1px solid #c9caca; */
+        border-bottom: 1px solid #c9caca;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .pg-merchanthome .news-list-topic {
+        font-size: 13px;
+        font-weight: bold;
+        color: #000000;
+        line-height: 23px;
+    }
+}
+
+.pg-merchanthome .news-list-subtitle {
+    font-size: 14px;
+    color: #535353;
+    line-height: 21px;
+}
+
+.pg-merchanthome .news-list-time {
+    font-size: 12px;
+    color: #535353;
+    line-height: 21px;
+}
+
+
+/*图标灰度*/
+
+.pg-merchanthome .img-grey {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: progid: DXImageTransform.Microsoft.BasicImage(grayscale=1);
+}
+
+.pg-merchanthome .zhucecard {
+    border: 1px solid #fb5555;
+    width: 84px;
+    height: 26px;
+    line-height: 26px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    background: #fb5555;
+    border-radius: 4px;
+    margin-top: 0;
+}
+
+.pg-merchanthome .news-list-lie {
+    border-bottom: 1px solid #c9caca;
+    text-align: left;
+    overflow: hidden;
+    margin: 0 0.4375rem;
+}
+
+.pg-merchanthome .news-list-lie .list-avatar {
+    position: relative;
+    width: 80px;
+    height: 62px;
+    margin: 0.9735rem 0 0.9735rem 0.625rem;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+}
+
+.pg-merchanthome .news-list-lie img {
+    vertical-align: middle;
+    /*height: 4.0625rem;*/
+    height: 62px;
+}
+
+.pg-merchanthome .news-list-lie .content {
+    margin: 0.8235rem 0 0.9735rem 0.525rem;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    width: 14.9rem;
+    text-align: justify;
+}
+
+.pg-merchanthome .news-list-lie .content p {
+    font-size: 12px;
+    color: #9FA0A0;
+    line-height: 21px;
+}
+
+.pg-merchanthome .news-list-topic {
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+    line-height: 23px;
+}
+
+.pg-merchanthome .youjiantou {
+    box-sizing: border-box;
+    width: 2rem;
+    height: 100%;
+    background-image: url(../../img/base/youjiantou.png);
+    background-size: 66%;
+    background-position: center right;
+    background-repeat: no-repeat;
+    float: right;
+    /* display: inline-block; */
+    /* margin-left: 15.625rem; */
+}
+
+
+/*最新消息*/
+
+.pg-merchanthome .news-list {
+    margin-top: 0.625rem;
+    background: #FFFFFF;
+}
+
+.pg-merchanthome .news-list-title {
+    height: 3.125rem;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 3.125rem;
+    text-align: left;
+    padding-left: 0.9375rem;
+    /* border-top: 1px solid #c9caca; */
+    border-bottom: 1px solid #c9caca;
+}
+
+
+/* 未登录的 */
+
+.pg-merchanthome .login_register {
+    font-size: 12px;
+    text-align: center;
+    color: #9c9c9c;
+    margin-top: 8px;
+}
+
+.pg-merchanthome .login_register>span {
+    color: red;
+    text-decoration: underline
+}
+
+@media screen and (min-width: 375px) and (max-width: 414px) {
+    .pg-merchanthome .zhucecard {
+        margin-top: 5px;
+    }
+    .pg-merchanthome .login_register {
+        margin-top: 12px;
+    }
+}
+
+.pg-merchanthome .userBac {
+    position: absolute;
+    height: 9rem;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    max-height: 9rem;
+    min-height: 9rem;
+}
+
+.pg-merchanthome .back-icon-wrap .myBtn {
+    display: block !important;
+    width: 30px !important;
+    height: 24px !important;
+    background: url("../../img/base/myBtn.png") no-repeat !important;
+    -webkit-background-size: 24px auto !important;
+    -moz-background-size: 24px auto !important;
+    background-size: 24px auto !important;
+    line-height: 0;
+}
+
+.pg-merchanthome .myBtnDiv span {
+    display: block;
+    width: 38px;
+    height: 22px;
+    font-size: 12px;
+    margin-top: -16px;
+    text-align: left;
+    color: #ffffff;
+    box-sizing: content-box;
+    /* line-height: 46px; */
+    text-indent: 1px;
+}

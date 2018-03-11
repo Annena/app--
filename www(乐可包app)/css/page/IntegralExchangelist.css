@@ -1,0 +1,297 @@
+@charset "UTF-8";
+
+/**
+ *
+ * @authors Your Name (you@example.org)
+ * @date    2018-01-18 10:55:36
+ * @version $Id$
+ */
+/*积分兑换*/
+
+.integralExchange-valuenews{
+    font-size:20px;
+}
+
+/*顶部内容*/
+.integralExchange-valuenews{
+/*    overflow: scroll;
+    max-height: 12em;
+    height: 14em;
+*/    background: #FFF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.integralExchange-valuenews .integralExchange-header{
+    position:relative;
+}
+
+.integralExchange-valuenews .integralExchange-nav {
+    top: 50px;/* 67 */
+    padding-bottom: 98px;
+    border-width: 1px 0;
+    /* position: relative; */
+    /* height: auto; */
+    /* overflow: hidden; */
+    text-align: center;
+    width: 100%;
+}
+.integralExchange-valuenews .integralExchange-header .article-box{
+    position:absolute;
+    right:1em;
+    top:0.8em;
+}
+.integralExchange-valuenews .integralExchange-header .article-box-img{
+    width:1em;
+    height:1em;
+    background:url("../../img/base/question-mark.png") no-repeat;
+    background-size:100%;
+}
+
+.integralExchange-valuenews .integralExchange-valuenews-pitch {
+    margin:0px 15px;
+    height:14em;
+    background: url('../../img/base/interexchange-bg_1.png') no-repeat 0 0;
+    background-size:100% 94%;
+    position: relative;
+    border-radius:10px;
+}
+
+/*.integralExchange-valuenews .integralExchange-valuenews-title {
+    width:50%;
+    color: #7F7F7F;
+    float: left;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    text-shadow: #666 1px 1px 1px;
+}*/
+
+.integralExchange-valuenews .integralExchange-valuenews-title p{
+    margin-top:0.8em;
+}
+
+.integralExchange-valuenews .integralExchange-valuenews-title span{
+    font-size:1em;
+    font-style:normal;
+}
+
+.integralExchange-valuenews .integralExchange-valuenews-title i{
+    font-size:1em;
+    font-style:normal;
+}
+
+.integralExchange-valuenews .integralExchange-valuenews-title b{
+    width: 1px;
+    height: 1.6em;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 1.2em;
+    background: #fff;.
+    box-shadow: #666 1px 1px 1px;
+}
+
+.integralExchange-valuenews .integralExchange-currency{
+    margin-top:2em;
+    margin-left:0.875em;
+}
+
+.integralExchange-valuenews .integralExchange-currency-left{
+    float:left;
+    /*width:3em;*/
+   /* height:2em;*/
+    box-sizing: inherit;
+    /*margin-left:0.3em;*/
+}
+
+.integralExchange-valuenews .integralExchange-currency-left input{
+    border:none;
+    outline: none;
+    height:1em;
+    /*border-bottom:2px solid #ccc;*/
+    border-bottom: 1px solid #dfdfdf;
+    width: 3.4em;
+    /*font-size:1em;*/
+    text-align: center;
+    font-size:28px;
+    padding-left: 0px !important;
+}
+
+.integralExchange-valuenews .integralExchange-currency-coin{
+    font-size:0.6em;
+    line-height:2em;
+    color:#999;
+    padding-left:2em;
+}
+
+.integralExchange-valuenews .integralExchange-currency-right{
+    float:right;
+    width:8em;
+    background:#cccccca8;
+    height:2em;
+    border-radius:4px;
+    border:2px solid #eee;
+}
+
+.integralExchange-valuenews .integralExchange-currency-right p{
+    text-align:center;
+    color:#333;
+    font-size:0.7em;
+    line-height:3em;
+}
+
+.integralExchange-valuenews .integralExchange-currency-right span{
+    color:#FB5555;
+}
+
+.integralExchange-valuenews .integralExchange-currencyBtn{
+    text-align:center;
+    margin-top:2em;
+    height:2.5em;
+    background:#FB5555;
+    line-height:2.5em;
+    border-radius:4px;
+}
+
+.integralExchange-valuenews .integralExchange-currencyBtn a{
+    font-size:1em;
+    text-decoration:none;
+    out-line: none;
+    color:#fff;
+}
+
+.integralExchange-valuenews .integralExchange-valuenews-title-title{
+    /*font-size:0.7em;*/
+    font-size:16px;
+    font-weight:normal;
+    color:#333;
+    padding:1em 1.2em;
+    padding-bottom: 0.2em;
+    text-align:left;
+}
+
+.integralExchange-valuenews  .integralExchange-rule{
+    display: -webkit-flex;
+    display: flex;
+     -webkit-align-items: center; 
+    align-items: center;
+     -webkit-justify-content: center; 
+    justify-content: center;
+}
+
+.integralExchange-valuenews  .integralExchange-rule h6{
+    float:left;
+    color:#fff;
+    height:4em;
+}
+
+.integralExchange-valuenews  .integralExchange-rule span{
+    color:#333;
+    /*font-size:1em;*/
+    font-size: 16px;
+    font-weight: normal;
+
+}
+
+.integralExchange-valuenews  .integralExchange-rule .fontSize20{
+    color:#333;
+    /*font-size:2em;*/
+    font-weight: normal;
+    font-size: 40px;
+}
+.integralExchange-valuenews  .integralExchange-rule .eq{
+    color: #333;
+    font-size: 1.2em;
+    font-size: 28px;
+    padding: 0.3em 0.3em;
+    height: auto;
+}
+
+.integralExchange-valuenews .residualIntegral{
+    padding-left: 1em;
+    /*margin-top: 0.3em;*/
+   /* height: 1.6em;
+    line-height: 1.6em;*/
+}
+
+.integralExchange-valuenews .residualIntegral h5{
+    /*font-size:0.7em;*/
+    font-size:16px;
+    color:#333;
+    float:left;
+    line-height:2em;
+    font-weight:normal;
+}
+
+.integralExchange-valuenews .residualIntegral span{
+    /*font-size:0.7em;*/
+    font-size:16px;
+    color:#333;
+    float:left;
+    line-height:2em;
+}
+
+.integralExchange-valuenews .residualIntegral p{
+    /*font-size:1em;*/
+    font-size:28px;
+    color: #fb5555;
+    float:left;
+    line-height:1.1em;
+    position: relative;
+    margin: 0px;
+}
+
+.integralExchange-valuenews .integralResidualIntegral{
+    height:8em;
+    /*padding-top:1em;*/
+   padding-top: 1.1em;
+}
+
+.integralExchange-valuenews .integralExchange-currency{
+    font-size:1em;
+    color:red;
+}
+
+.integralExchange-valuenews .IntegralValueProportion{
+    /*font-size:0.6em;*/
+    padding-top: 0.3rem;
+    font-size: 13px;
+    color: #999;
+    height: 1em;
+    line-height: 1em;
+    text-align:left;
+}
+
+/*修改*/
+.integralExchange-valuenews  .residual_1{
+    margin-top: 0;
+    margin-left: 2rem;
+    position: relative;
+    top: -0.5rem;
+}
+.integralExchange-valuenews  .Proportion_1{
+    margin-top: 0;
+    display: inline-block;
+    /*margin-left: 2rem;*/
+}
+
+.residual_1 span{
+
+}
+.Integral_1{
+    float: left;
+    line-height: 2em;
+    height: 2em;
+    padding-left: 0.4em;
+}
+.clearfix_2{
+    position: relative;
+    top: -0.4em;
+}
+.pg-integralcenterlist .Integral_img{
+    width:50%;
+}
+.pg-integralcenterlist .IntegralRecord-null_1{
+        margin-top: 10px;
+}

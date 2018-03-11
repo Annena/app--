@@ -1,0 +1,67 @@
+/* 提示层 */
+.layer {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 106px;
+    height: 92px;
+    z-index: 1000;
+    margin: -46px 0 0 -61px;
+    text-align: center;
+    line-height: 1.8em;
+    font-size: 0.8em;
+    color: #FFFFFF;
+    background-color: #5D5D5D;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+.layer img {
+    margin: 15px 0 0 0;
+    width: 35%;
+}
+
+/* 提示消息 */
+.msg {
+    position: absolute;
+    top: 80%;
+    min-height: 30px;
+    padding: 0px 5px;
+    z-index: 1000;
+    line-height: 30px;
+    background: #000000;
+    text-align: left;
+    color: #DDC700;
+    font-size: 1em;
+    opacity: 0.8;
+    color: #FFFFFF;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    word-break: break-all;
+}
+
+/* 列表加载文字 */
+.loading {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background: #E6E6E6;
+    text-align: center;
+    font-size: 1em;
+}
+
+/* 遮蔽层 */
+.app_layer {
+    z-index: 9;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #000000;
+    opacity: 0.3;
+}

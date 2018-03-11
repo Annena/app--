@@ -1,0 +1,159 @@
+/*!
+ * Mobiscroll v2.11.1
+ * http://mobiscroll.com
+ *
+ * Copyright 2010-2014, Acid Media
+ * Licensed under the MIT license.
+ *
+ */
+(function ($) {
+
+    function testProps(props) {
+        // console.log(mod);
+        // console.log(props);
+        var i;
+        for (i in props) {
+            if (mod[props[i]] !== undefined) {
+                // console.log(mod[props[i]]);
+                return true;
+            }
+        }
+        return false;
+    }
+
+    function testPrefix() {
+        var prefixes = ['Webkit', 'Moz', 'O', 'ms'],
+            p;
+
+        for (p in prefixes) {
+            // console.log(prefixes[p]);
+            // console.log([prefixes[p] + 'Transform']);
+            if (testProps([prefixes[p] + 'Transform'])) {
+                return '-' + prefixes[p].toLowerCase() + '-';
+            }
+        }
+        return '';
+    }
+
+    function getCoord(e, c) {
+        var ev = e.originalEvent || e;
+        return ev.changedTouches ? ev.changedTouches[0]['page' + c] : e['page' + c];
+    }
+
+    function init(that, options, args) {
+        var ret = that;
+
+        // Init
+        if (typeof options === 'object') {
+            return that.each(function () {
+                // console.log(this.id);
+                if (!this.id) {
+                    this.id = 'mobiscroll' + (++id);
+                }
+                if (instances[this.id]) {
+                    instances[this.id].destroy();
+                }
+                // console.log($.mobiscroll.classes[options.component || 'Scroller']);
+                // console.log($.mobiscroll.classes[options.component || 'Scroller'](this, options));
+                // console.log(new $.mobiscroll.classes[options.component || 'Scroller'](this, options));
+                new $.mobiscroll.classes[options.component || 'Scroller'](this, options);
+            });
+        }
+
+        // Method call
+        if (typeof options === 'string') {
+            that.each(function () {
+                var r,
+                    inst = instances[this.id];
+
+                if (inst && inst[options]) {
+                    r = inst[options].apply(this, Array.prototype.slice.call(args, 1));
+                    if (r !== undefined) {
+                        ret = r;
+                        return false;
+                    }
+                }
+            });
+        }
+
+        // console.log(ret);
+        return ret;
+    }
+
+    function testTouch(e) {
+        if (e.type == 'touchstart') {
+            touches[e.target] = true;
+        } else if (touches[e.target]) {
+            delete touches[e.target];
+            return false;
+        }
+        return true;
+    }
+
+    var id = +new Date(),
+        touches = {},
+        instances = {},
+        extend = $.extend,
+        mod = document.createElement('modernizr').style,
+        has3d = testProps(['perspectiveProperty', 'WebkitPerspective', 'MozPerspective', 'OPerspective', 'msPerspective']),
+        hasFlex = testProps(['flex', 'msFlex', 'WebkitBoxDirection']),
+        prefix = testPrefix(),
+        pr = prefix.replace(/^\-/, '').replace(/\-$/, '').replace('moz', 'Moz');
+
+        // console.log(has3d);
+        // console.log(hasFlex);
+        // console.log(prefix);
+        // console.log(pr);
+
+    $.fn.mobiscroll = function (method) {
+        // console.log(this);
+        // console.log(method);
+        // console.log(arguments);
+        // console.log($.mobiscroll.components);
+        extend(this, $.mobiscroll.components);
+        return init(this, method, arguments);
+    };
+
+    $.mobiscroll = $.mobiscroll || {
+        util: {
+            prefix: prefix,
+            jsPrefix: pr,
+            has3d: has3d,
+            hasFlex: hasFlex,
+            getCoord: getCoord,
+            testTouch: testTouch
+        },
+        presets: {},
+        themes: {
+            listview: {}
+        },
+        i18n: {},
+        instances: instances,
+        classes: {},
+        components: {},
+        defaults: {},
+        userdef: {},
+        setDefaults: function (o) {
+            extend(this.userdef, o);
+        },
+        presetShort: function (name, c) {
+            // console.log('name:' + name);
+            // console.log('c:'+ c);
+            this.components[name] = function (s) {
+                // console.log(this);
+                // console.log(s);
+                // console.log(extend(s, { component: c, preset: name }));
+                // console.log(arguments);
+                return init(this, extend(s, { component: c, preset: name }), arguments);
+            };
+            // console.log(this.components);
+        }
+    };
+
+    // 可以叫scroller || mobiscroll
+    $.scroller = $.scroller || $.mobiscroll;
+
+    // 可结合jQuery元素进行链式操作
+    $.fn.scroller = $.fn.scroller || $.fn.mobiscroll;
+
+})(jQuery);

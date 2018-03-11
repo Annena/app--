@@ -1,0 +1,392 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 外卖自提页面，样式
+ * @date    2015-11-28 10:55:36
+ * @version $Id$
+ */
+/*顶部样式*/
+.pg-takeaway html {
+    background: #ededed;
+}
+.pg-takeaway .shoplist-icon-wrap {
+    position: absolute;
+    left: 17px;
+    top: 10px;
+    width: 52px;
+    height: 35px;
+    padding-top: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.pg-takeaway .shoplist-header {
+    background: url('../../img/base/header.png') repeat-x 0px -259px;
+    color: #FFFFFF;
+    position: fixed;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.pg-takeaway .shoplist-header i {
+    display: block;
+    width: 30px;
+    height: 22px;
+    background: url("../../img/base/home-icons2.png") no-repeat;
+    -webkit-background-size: 28px auto;
+    -moz-background-size: 28px auto;
+    background-size: 28px auto;
+}
+
+.pg-takeaway .shoplist-header i.shoplist-icon {
+    background-position: 0 -65px;
+}
+
+.pg-takeaway .shoplist-title {
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+}
+/* 外卖地址部分 样式 */
+.pg-takeaway .ta_tite {
+    height: 38px;
+    width: 100%;
+    line-height: 38px;
+}
+.pg-takeaway .ta_tite_left {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    float: left;
+    margin-left: 15px;
+}
+.pg-takeaway .ta_tite_right {
+    font-size: 12px;
+    color: #666;
+    float: right;
+    margin-right: 15px;
+}
+.pg-takeaway .add_def_ress {
+    background-color: #fff;
+    border-bottom: 1px solid #dfdfdf;
+    height: 68px;
+    width: 100%;
+    /* line-height: 72px; */
+}
+.pg-takeaway .add_def_ress .add_def_name {
+    color: #666;
+    font-size: 14px;
+    margin-right: 19px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 15px;
+    display: inline-block;
+}
+.pg-takeaway .add_def_ress .add_def_phone {
+    color: #666;
+    font-size: 14px;
+    font-weight: bold;
+}
+.pg-takeaway .add_def_ress .add_def_img {
+    position: relative;
+    box-sizing: border-box;
+    width: 35px;
+    height: 20px;
+    background-image: url(../../img/base/youjiantou.png);
+    background-size: 53%;
+    background-position: right;
+    background-repeat: no-repeat;
+    float: right;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=30);
+    opacity: 0.5;
+    margin-right: 11px;
+    top: 26.5px;
+}
+.pg-takeaway .add_def_ress .add_def_re {
+    font-size: 12px;
+    color: #888;
+    margin-top: 2px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.pg-takeaway .add_ress {
+    height: 51px;
+    width: 100%;
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    background-color: #fff;
+    line-height: 51px;
+}
+.pg-takeaway .add_ress img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+/* 不支持外卖，不支持自提 样式 */
+.pg-takeaway .no_take {
+    background-color: #fff;
+    height: 125px;
+    color: #666;
+    font-size: 12px;
+    text-align: center;
+}
+.pg-takeaway .no_take img {
+    width: 34px;
+    height: 34px;
+    margin-top: 36px;
+    margin-bottom: 5px;
+}
+
+/*自提门店部分 样式*/
+.pg-takeaway .shoplist-nav {
+    width: 100%;
+    top: 50px;
+    padding-bottom: 63px;
+    border-width: 1px 0;
+    height: auto;
+    overflow: hidden;
+    /* text-align: center; */
+}
+
+.pg-takeaway .shoplist-list-floor {
+    /*height: 3.125rem;*/
+    line-height: 3.125rem;
+    background: #FFF;
+    text-align: left;
+    margin-bottom: 10px;
+    /*border-bottom: 1px solid #c9caca;*/
+}
+.pg-takeaway .shoplist-list-floor:last-child{
+    margin-bottom: 0;
+}
+.pg-takeaway .shoplist-list {
+
+    /*height: 3.125rem;*/
+    line-height: 3.125rem;
+    background: #FFF;
+    text-align: left;
+    margin-bottom: 5px;/*10px*/
+    /*border-bottom: 1px solid #c9caca;*/
+}
+.pg-takeaway .shoplist-list img {
+    width: 15px;
+    height: 15px;
+    vertical-align: text-bottom;
+    margin-right: 10px;
+}
+
+.pg-takeaway .shoplist-list-title {
+    width: 100%;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+    /*line-height: 3.2125rem;*/
+}
+
+@media screen and  (min-width: 320px) and (max-width: 374px) {
+   .pg-takeaway .shoplist-list-title {
+        width: 100%;
+        display: inline-block;
+        font-size: 14px;
+        font-weight: bold;
+        margin-top: 0.625rem;
+        /*line-height: 3.2125rem;*/
+    }
+}
+
+.pg-takeaway .shoplist-list-futitle {
+    font-size: 14px;
+    color: #9c9c9c;
+    line-height: 21px;
+    overflow: hidden;
+}
+
+@media screen and  (min-width: 320px) and (max-width: 374px) {
+   .pg-takeaway .shoplist-list-futitle {
+        font-size: 12px;
+        color: #9c9c9c;
+        line-height: 21px;
+    }
+}
+
+.pg-takeaway .shoplist-list-futitle span {
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.pg-takeaway .shoplist-youjiantou {
+    box-sizing: border-box;
+    width: 35px;
+    height: 20px;
+    background-image: url(../../img/base/youjiantou.png);
+    background-size: 53%;
+    background-position: 18px 0px;
+    background-repeat: no-repeat;
+    float: right;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=30);
+    opacity: 0.5;
+}
+
+.pg-takeaway .shoplist-left {
+    width: 100%;
+    display: inline-block;
+    line-height: 21px;
+}
+
+.pg-takeaway .shoplist-right {
+    width: 45%;
+    display: inline-block;
+    line-height: 21px;
+    font-size: 42px;
+    font-weight: bold;
+    color: #9c9c9c;
+    text-align: right;
+}
+
+.pg-takeaway .shoplist-right-red {
+    width: 45%;
+    display: inline-block;
+    line-height: 21px;
+    font-size: 42px;
+    font-weight: bold;
+    color: #F59AA1;
+    text-align: right;
+}
+
+.pg-takeaway .shoplist-right span {
+    font-size: 18px;
+}
+
+.pg-takeaway .shoplist-border {
+    line-height: 21px;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.pg-takeaway .shoplist-status {
+    color: #888;
+    line-height: 21px;
+    padding-top: 5px;
+}
+
+.shopchoice-status-txt {
+    width: 100%;
+    display: inline-block;
+    font-size: 14px;
+    color: #9c9c9c;
+}
+
+.pg-takeaway .shoplist-status-tell {
+    width: 100%;
+    display: inline-block;
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 2px;
+   /* margin-top: 5px;*/
+}
+.pg-takeaway .ma_bo {
+    margin-bottom: 4px;
+}
+
+.pg-takeaway .shoplist-status-tell a {
+    font-size: 12px;
+    color: #888;
+    text-decoration: underline;
+}
+
+.pg-takeaway .shoplist-addr-title {
+    float: left;
+    font-size: 12px;
+}
+
+.pg-takeaway .shoplist-addr-content {
+    float: left;
+    width: 87%;
+    font-size: 12px;
+}
+
+@media screen and  (min-width: 320px) and (max-width: 374px) {
+   .pg-takeaway .shoplist-status-txt {
+        width: 100%;
+        display: inline-block;
+        font-size: 12px;
+        color: #888;
+    }
+
+    .pg-takeaway .shoplist-status-tell {
+        width: 100%;
+        display: inline-block;
+        font-size: 12px;
+        color: #888;
+        /*margin-top: 5px;*/
+    }
+
+    .pg-takeaway .shoplist-addr-title {
+        float: left;
+        font-size: 12px;
+    }
+
+    .pg-takeaway .shoplist-addr-content {
+        float: left;
+        width: 87%;
+        font-size: 12px;
+    }
+}
+
+.pg-takeaway .shoplist-status-button {
+    width: 67%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: inline-block;
+    font-size: 14px;
+    text-align: right;
+}
+
+.pg-takeaway .shoplist-status-again {
+    font-size: 14px;
+    display: inline-block;
+    border: 1px solid #F6A8AF;
+    margin-left: 5px;
+    padding: 0 5px 0 5px;
+    border-radius: 5px;
+}
+
+.pg-takeaway .shoplist-status-reviews {
+    font-size: 14px;
+    color: #FFFFFF;
+    display: inline-block;
+    border: 1px solid #F6A8AF;
+    background: #F6A8AF;
+    margin-left: 5px;
+    padding: 0 5px 0 5px;
+    border-radius: 5px;
+}
+
+.pg-takeaway .shoplist-pitch {
+    margin-left: 4%;
+    margin-right: 4%;
+    overflow: hidden;
+    background: #FFFFFF;
+}
+
+
+/* 定位距离样式 */
+.pg-takeaway .distance {
+    color: #fb5555;
+    float: right;
+}
+.pg-takeaway .distanceLeft {
+    float: left;
+}

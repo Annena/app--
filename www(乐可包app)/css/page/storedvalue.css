@@ -1,0 +1,504 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2015-11-28 10:55:36
+ * @version $Id$
+ */
+/*顶部样式*/
+.pg-storedvalue html {
+    background: #ededed;
+}
+.pg-storedvalue .force-height {
+    height: 150px !important;
+}
+.pg-storedvalue .storedvalue-icon-wrap {
+    position: absolute;
+    left: 17px;
+    top: 10px;
+    width: 52px;
+    height: 35px;
+    padding-top: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.pg-storedvalue .storedvalue-header {
+    background: url('../../img/base/header.png') repeat-x 0px -259px;
+    color: #FFFFFF;
+    position: fixed;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.pg-storedvalue .storedvalue-header i {
+    display: block;
+    width: 30px;
+    height: 22px;
+    background: url("../../img/base/home-icons2.png") no-repeat;
+    -webkit-background-size: 28px auto;
+    -moz-background-size: 28px auto;
+    background-size: 28px auto;
+}
+
+.pg-storedvalue .storedvalue-header i.storedvalue-icon {
+    background-position: 0 -65px;
+}
+
+.pg-storedvalue .storedvalue-title {
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+/*内容部分*/
+.pg-storedvalue .storedvalue-nav {
+    top: 50px;/* 67 */
+    padding-bottom: 98px;
+    border-width: 1px 0;
+    /* position: relative; */
+    /* height: auto; */
+    /* overflow: hidden; */
+    text-align: center;
+    width: 100%;
+}
+
+.pg-storedvalue .storedvalue-list {
+    line-height: 50px;
+    background: #FFF;
+    text-align: left;
+}
+
+.pg-storedvalue .storedvalue-list-title {
+    display: inline-block;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.pg-storedvalue .storedvalue-youjiantou {
+    box-sizing: border-box;
+    width: 2rem;
+    height: 45px;
+    background-image: url(../../img/base/youjiantou.png);
+    background-size: 66%;
+    background-position: right;
+    background-repeat: no-repeat;
+    float: right;
+}
+
+.pg-storedvalue .storedvalue-pitch {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    overflow: hidden;
+    background: #FFFFFF;
+}
+.pg-storedvalue .storedvalue-valuenews {
+    background: #FFF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.pg-storedvalue .storedvalue-valuenews-title {
+    line-height: 1.2em;
+    font-size: 14px;
+    color: #7F7F7F;
+    width: 33%;
+    float: left;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    text-shadow: #666 1px 1px 1px;
+}
+
+.pg-storedvalue .storedvalue-valuenews-pitch {
+    margin-left: 15px;
+    margin-right: 15px;
+    overflow: hidden;
+    padding-top: 2px;
+    background: url('../../img/base/storedValuekp.png') no-repeat ;
+    background-size: 100% 100%;
+    height: 194px;
+    position: relative;
+    transition: all .5s linear; /*翻页功能*/
+}
+
+
+
+
+.pg-storedvalue .storedvalue-titlebig {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 1.6rem;
+/*    margin-bottom: 0.5rem;*/
+}
+.pg-storedvalue .storedvalue-titlebig i{
+    font-size: 14px;
+}
+.pg-storedvalue .storedvalue-titlebig span {
+    display: inline-block;
+    font-size: 3.2em;
+    padding-top: 0.5rem;
+    text-shadow: #666 1px 1px 1px;
+}
+.pg-storedvalue .storedvalue-valuenews-pitch>div i{
+    font-style: normal;
+    text-shadow: #666 1px 1px 1px;
+}
+.pg-storedvalue .storedvalue-valuenews-pitch div b{
+    width: 1px;
+    height: 1.4em;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0.5em;
+    background: #fff;.
+    box-shadow: #666 1px 1px 1px;
+}    
+.pg-storedvalue .storedvalue-valuenews-title div i{
+    font-size:12px;
+}
+.pg-storedvalue .storedvalue-valuenews-title div span{
+    font-size: 16px;
+}
+.pg-storedvalue .storedvalue-buy-list ul li{
+    height: 133px;
+    width: 100%;
+    background-size: contain;
+    margin-bottom: : 10px;
+    position: relative;
+}
+.pg-storedvalue .storedvalue-buy-list{
+    padding: 0 15px;
+    margin-top:15px;
+}
+.pg-storedvalue .storedvalue-buy-list ul li .onep{
+    font-size: 10px;
+}
+.pg-storedvalue .por{
+    position: absolute;
+    width: 100%;
+    bottom: 14%;
+}
+.pg-storedvalue .storedvalue-buy-list ul li .listImg{
+    position: absolute;
+}
+.pg-storedvalue .storedvalue-buy-list ul li .listImg img{
+    width: 100%;
+    height: 120px;
+}
+.pg-storedvalue .storedvalue-buy-list ul li .onep{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    width: 82%;
+    font-size: 10px;
+    padding-left: 7%;
+
+}
+.pg-storedvalue .storedvalue-buy-list ul li .twop{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    width: 82%;
+    top: 24%;
+    background: url('../../img/base/storedValuedtxxh.png') no-repeat;
+    height: 54px;
+    background-position: bottom;
+    background-size: 78%;
+}
+.pg-storedvalue .storedvalue-buy-list ul li .twop span{
+    font-size:36px;
+    margin: 0 2%;
+}
+.pg-storedvalue .storedvalue-buy-list ul li .twop b{
+    font-weight: normal;
+}
+.pg-storedvalue .storedvalue-buy-list ul li .twop i{
+    font-style: normal;
+}
+.pg-storedvalue .storedvalue-buy-list ul li .thrp{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    width: 82%;
+    bottom: 10%;
+    font-size: 10px;
+}
+.pg-storedvalue .storedvalue-buy-list ul li .foup{
+    position: absolute;
+    right: 5%;
+    line-height: 20px;
+    top: 30%;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}    
+.pg-storedvalue .storedvalue-bot {
+    text-align: left;
+    padding: 0 15px;
+    background: #fff;
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
+.pg-storedvalue .storedvalue-bot h4{
+    line-height: 45px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: normal;
+    color: #333;
+}
+.pg-storedvalue .storedvalue-bot p{
+    font-size: 14px;
+    color: #999;
+    line-height: 20px;
+}
+.pg-storedvalue .storedvalue-title u{
+    text-decoration: none;
+    font-size: 14px;
+    position: absolute;
+    right: 4%;
+    background: url("../../img/base/sx.png") 5px 7px no-repeat;
+    background-size: 18px;
+    line-height: 50px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    height: 50px;
+}
+.pg-storedvalue .notLogin{
+    height: 170px;
+    background-color: #fff;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+.pg-storedvalue .notLogin p{
+    text-align: center;
+}
+.pg-storedvalue .notLogin .onep{
+    color: #666666;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.pg-storedvalue .notLogin .twop{
+    margin-bottom: 20px;
+    height: 40px;
+    color: #fff;
+    width: 35%;
+    outline: none;
+    border: none;
+    border-radius: 6px !important;
+    font-size: 16px;
+    /* font-weight: bold; */
+    background: #FB5555;
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+    line-height: 40px;
+}
+.pg-storedvalue .notLogin .thrp{
+    color: #999;
+    font-size: 12px;
+}
+.pg-storedvalue .notLogin .thrp a{
+    color: #fb5555;
+}
+.pg-storedvalue .wechatOrali{
+    height: 235px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 80%;
+}
+.pg-storedvalue .payContent div{
+    height: 85px;
+    padding: 20px 15px 0 15px;
+    box-sizing: border-box;
+    text-align: left;
+}
+.pg-storedvalue .payContent div p{
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 20px;
+    overflow: hidden;
+    font-size: 16px;
+    background: url('../../img/base/arrow-right.png') no-repeat 99% 12px;
+    background-size: 11px;
+}
+.pg-storedvalue .payContent p img{
+    height: 44px;
+    width: 44px;
+    vertical-align: middle;
+    margin-left: 6px;
+    margin-right: 11px;
+    float: left;
+}
+.pg-storedvalue .payContent p span{
+    width: 160px;
+    display: inline-block;
+    line-height: 20px;
+    padding-top: 2px;
+    float: left;
+}
+.pg-storedvalue .payContent p span u{
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+.pg-storedvalue .payContent p span i{
+    font-size: 10px;
+    font-style: normal;
+    color: #999;
+}
+.pg-storedvalue .wechatDiv p{
+    line-height: 44px;
+}
+
+
+
+/*新加样式 --lina*/
+/*储值卡通用范围*/
+.pg-storedvalue .storedvalue-rang{
+    margin-bottom: 15px;
+    margin-top: 3px;
+    /*margin-top:-5px*/
+}
+/*储值卡通用范围*/
+.pg-storedvalue .storedvalue-rang p{
+    font-style: normal;
+    text-shadow: #666 1px 1px 1px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
+/*储值等的金额*/
+.pg-storedvalue .storedvalue-valuenews-title .money{
+    font-size:18px;
+    padding-bottom: 5px;
+}
+
+/*小圆点*/
+.storedvalue-valuenews-circle{
+    position: relative;
+    margin-top: 6px;
+}
+.storedvalue-valuenews-circle .circle {
+      position: absolute;
+      width: 6px;
+      height: 6px;
+      background: #fb8a2c;
+      border-radius: 50%;
+      border: 1px solid #fb8a2c;
+      left:47%;
+    }
+.storedvalue-valuenews-circle .circleW {
+      position: absolute;
+      width: 6px;
+      height: 6px;
+      background: #fff;
+      border-radius: 50%;
+      border: 1px solid #fb8a2c;
+      left:53%;
+    }
+
+/*储值页面中的table页样式*/
+.storedvalue-pitch .flexBox{
+    display: flex;
+}
+.storedvalue-nav .storedvalue-pitch .flexBox div{
+    flex: 1;
+    text-align: center;
+}
+.storedvalue-nav .storedvalue-pitch .active{
+    color:#fb5555;
+    background: #fff;
+}
+.storedvalue-nav .storedvalue-pitch .noactive{
+    color:#666;
+    background: #dfdfdf;
+}
+
+
+/*储值通用范围*/
+/*.storevalueRang{
+    position: relative;
+}*/
+
+.storevalueRang .storevalueRang-title{
+    color:#fff;
+    font-size: 16px;
+    margin:20px auto 20px 20px;
+    padding: 0;
+    text-align: left;
+}
+.storevalueRang  .storevalueRang-content{
+    color:#fff;
+    font-size: 12px;
+    line-height: 24px;
+    margin:auto 40px;
+    padding: 0;
+    text-align: left;
+}
+.storevalueRang .rangCallback{
+    background: url("../../img/base/callback.png") no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 20px;
+    bottom: 20px;
+}
+
+.getIntegral-null{
+    width: 100%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    display: inline-block;
+    text-align: center;
+} 
+img.getIntegral_img{
+    width: 50%;
+} 
+.pg-storedvalue .storeValueRecord-list ul{
+    margin-bottom: -50px;
+}
+/*@media screen and (max-height: 569px) and (max-width: 340px){
+    .pg-storedvalue .storedvalue-rang{
+        margin-top: -12px !important;
+    }
+    .pg-storedvalue .storedvalue-titlebig p.storedvalue-amount{
+        margin-top: -6px;
+    }
+}*/
+
+/*@media screen and (max-height: 667px) and (max-width: 375px){
+    .pg-storedvalue .storedvalue-rang{
+        margin-top: -5px !important;
+    }
+    .pg-storedvalue .storedvalue-titlebig p.storedvalue-amount{
+        margin-top: -6px;
+    }
+}*/
+
+
+/*翻页功能 */
+/*.storedvalue-titlebig-rang{
+    backface-visibility: hidden;
+}
+.storevalueRang{
+    transition: all .5s linear;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+}*/

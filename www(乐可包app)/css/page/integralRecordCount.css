@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2015-11-28 10:55:36
+ * @version $Id$
+ */
+.integralRecord-title{
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+}    
+.integralRecordContent .integralRecord-null{
+    background: #f1f1f1;
+    text-align: center;
+    margin-top: 60%;
+}
+.integralRecordContent .integralRecord-null img{
+    width: 50%;
+}
+/*储值记录*/
+.integralRecordContent .integralRecord-list{
+    
+}
+
+.integralRecordContent .integralRecord-list li{
+    margin-left: 16px;
+    margin-right: 16px;
+    border-bottom: 1px solid #DFDFDF;
+    height: 84px;
+}
+
+.integralRecordContent .integralRecord-list .vouchers-nav{
+    top:50px;
+    border-width: 1px 0;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    background: #FFFFFF;
+    height: auto;
+    padding-bottom: 63px;
+}
+.integralRecordContent .integralRecord-list-left{
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    width: 62%;
+}
+.integralRecordContent .integralRecord-list-left p {
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+}
+.integralRecordContent .integralRecord-list-left span{
+    font-size: 12px;
+    color: #999;
+}
+.integralRecordContent .integralRecord-list-right{
+    float: right;
+    height: 100%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.integralRecordContent .integralRecord-list-left-top{
+    position: absolute;
+    top: 0px;
+    line-height: 20px;
+}
+.integralRecordContent span.typeName{
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+    display: inline-block;
+    margin-right: 6px;
+/*    position: absolute;*/
+}
+.integralRecordContent span.TimeData{
+    font-size: 12px;
+    color: #999;
+/*    margin-left: 64px;*/
+    margin-top: 1px;
+    display: inline-block;
+/*    height: 19px;
+    line-height: 19px;*/
+}
+
+.integralRecordContent p.shopName{
+    font-size: 12px;
+    color: #666;
+    margin-top: 25px;
+}
+.integralRecordContent .fontColorRed{
+    color: red;
+}
+.integralRecordContent .fontColorGreen{
+    color: green;
+}
+.integralRecordContent .interPullDown{
+    /*margin-top: 50px;*/
+}
+.integralRecordContent .integralRecord-list ul{
+    /*margin-bottom: -50px;*/
+}

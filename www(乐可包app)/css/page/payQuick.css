@@ -1,0 +1,195 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2015-11-28 10:55:36
+ * @version $Id$
+ */
+/*顶部样式*/
+html {
+    background: #ededed;
+}
+.pg-payquick .list_red {
+    color: #fb5555;
+}
+.pg-payquick .list_table_name {
+    font-weight: normal;
+}
+.pg-payquick .weizhifu-icon-wrap {
+    position: absolute;
+    left: 17px;
+    top: 10px;
+    width: 52px;
+    height: 35px;
+    padding-top: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.pg-payquick .weizhifu-header {
+    background: url('../../img/base/header.png') repeat-x 0px -259px;
+    color: #FFFFFF;
+    position: fixed;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.pg-payquick .weizhifu-header i {
+    display: block;
+    width: 30px;
+    height: 22px;
+    background: url("../../img/base/home-icons2.png") no-repeat;
+    -webkit-background-size: 28px auto;
+    -moz-background-size: 28px auto;
+    background-size: 28px auto;
+}
+
+.pg-payquick .weizhifu-header i.weizhifu-icon {
+    background-position: 0 -65px;
+}
+
+.pg-payquick .weizhifu-title {
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+/*内容部分*/
+.pg-payquick .weizhifu-nav {
+    top: 67px;
+    padding-bottom: 63px;
+    border-width: 1px 0;
+    position: relative;
+    height: auto;
+    /*overflow: hidden;*/
+    text-align: center;
+}
+
+.pg-payquick .weizhifu-list {
+    /*width: 100%;*/
+    /*margin-top: 0.625rem;*/
+    height: 3.125rem;
+    line-height: 3.125rem;
+    background: #FFF;
+    text-align: left;
+    /*padding-left: 0.9375rem;*/
+   /* border-top: 1px solid #c9caca;*/
+    /* border-bottom: 1px solid #c9caca; */
+}
+
+
+.pg-payquick .weizhifu-list-title {
+    height: 100%
+}
+.pg-payquick .weizhifu-list-title-youjiantou {
+    box-sizing: border-box;
+    width: 2rem;
+    height: 100%;/*51px*/
+    background-image: url(../../img/base/youjiantou.png);
+    background-size: 66%;
+    background-position: center right;/*15 16*/
+    background-repeat: no-repeat;
+    float: right;
+}
+
+.pg-payquick .weizhifu-youjiantou {
+    box-sizing: border-box;
+    width: 2rem;
+    height: 1rem;
+    background-image: url(../../img/base/youjiantou.png);
+    background-size: contain;
+    background-position: 20% 20%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 15.268rem;;
+}
+
+.pg-payquick .weizhifu-pitch {
+    margin-left: 15px;
+    margin-right: 15px;
+    overflow: hidden;
+    /*background: #FFFFFF;*/
+}
+
+.pg-payquick .weizhifu-pitchtitle h1 {
+    margin-left: 15px;
+    margin-right: 15px; 
+}
+
+.pg-payquick .weizhifu-pitchlist {
+    padding: 15px;
+    background: #FFFFFF;
+    height: 93px;
+    margin-bottom: 15px;
+}
+
+.pg-payquick .weizhifu-pitch-list-title {
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    height: 30px;
+    color: #9C9C9C;
+}
+
+.pg-payquick .weizhifu-pitch-left {
+    width: 50%;
+    display: inline-block;
+    line-height: 21px;
+}
+
+.pg-payquick .weizhifu-pitch-right {
+    width: 45%;
+    display: inline-block;
+    line-height: 21px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #F59093;
+    text-align: right;
+}
+
+.pg-payquick .weizhifu-pitch-futitle {
+    font-size: 12px;
+    color: #9c9c9c;
+    line-height: 21px;
+}
+
+.pg-payquick .weizhifu-pitch-youjiantou {
+    box-sizing: border-box;
+    width: 2rem;
+    height: 20px;
+    /*background-image: url(../../img/base/youjiantou.png);*/
+    background-size: 53%;
+    background-position: 15px 3px;
+    background-repeat: no-repeat;
+    float: right;
+}
+
+/* 未支付列表 */
+.pg-payquick .payquick-nav {
+    top: 160px !important;
+    padding-bottom: 63px;
+    border-width: 1px 0;
+    /* position: relative; */
+    height: auto;
+    overflow: hidden;
+    background: #f2f2f2;
+} 
+
+@media screen and (min-width: 374px) and (max-width: 413px){
+    .pg-payquick .payquick-nav {
+    top: 170px !important;
+    }
+}
+@media screen and (min-width: 413px){
+    .pg-payquick .payquick-nav {
+    top: 180px !important;
+    }
+}

@@ -1,0 +1,863 @@
+/* 搜索扫描弹出框,应用于搜索订单,提交订单处 */
+.search-scanner-dialog {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    min-height: 158px;
+    z-index: 1000;
+    border-radius: 6px;/*3*/
+    margin: -160px 0 0 -150px;
+    background: #fff;
+    color: #777777;
+    font-size: 1em;
+    color: #000000;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.search-inputtxt-dialog {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    min-height: 267px;
+    z-index: 1000;
+    border-radius: 6px;/*3*/
+    margin: -160px 0 0 -150px;
+    background: #fff;
+    color: #777777;
+    font-size: 1em;
+    color: #000000;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.search-scanner-dialog .title {
+    width: 100%;
+    margin: 0;
+    height: 50px;
+    line-height: 50px;
+    /* font-weight: bold; */
+    text-align: left;
+    color: #666;
+    border-bottom: 1px solid #CACACA;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.search-scanner-dialog .title span {
+    float: left;
+    margin-left: 25px;
+    cursor: auto;
+}
+.search-scanner-dialog .search-scanner-cancel-box {
+    float: right;
+    width: 40px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.search-scanner-dialog .search-scanner-cancel-box img {
+    width: 61%;
+}
+.search-scanner-dialog .content {
+    position: relative;
+    margin: 10px 0 30px 0;
+    padding: 0 25px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.search-scanner-dialog .scancode {
+    width: 250px;
+    height: 34px;
+    margin: 23px 0 1px 0;/*30px 0 1px 0*/
+    color: #fff;
+    text-align: center;
+    background-color: #FB5555;/*#7C0046*/
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.search-scanner-dialog .scancode .scanbox {
+    width: 170px;
+    margin: 0 auto;
+}
+.search-scanner-dialog .scancode .scancodeIcon {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-top: 7px;
+    background: url('/img/base/leshicons.png') no-repeat -79px -27px;
+    background-size: 1500% 1500%;
+}
+.search-scanner-dialog .scancode .scancodeCoin {
+    padding-top: 7px;
+}
+.search-scanner-dialog .inputAccount {
+    position: relative;
+    padding: 2px;
+    margin:23px 0;
+    cursor: auto;
+}
+.search-scanner-dialog .inputAccount span {
+    color: #7C0046;
+}
+.search-scanner-dialog .inputNum {
+    font-size: 0.9em;
+    width: 243px !important;
+    height: 30px;
+    margin: 10px 0;
+    border: 1px solid #CCCCCC;
+}
+.search-scanner-dialog .search-btn {
+    float: right;
+    width: 85px !important;
+    padding: 6px 8px;
+    margin: 5px 0;
+    text-align: center;
+    color: #fff !important;
+    font-size: 1em;
+    background: #7C0046;
+    cursor: pointer;
+}
+
+/*点餐提交订单样式*/
+.tijiao-scanner-dialog {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    height: 240px;
+    z-index: 1000;
+    border-radius: 3px;
+    margin: -160px 0 0 -150px;
+    background: #F4F4F4;
+    color: #777777;
+    font-size: 1em;
+    color: #000000;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.search-scanner-dialog .tijiao-btn {
+    float: right;
+    width: 229px !important;
+    padding: 9px 8px;/*6px 8px*/
+    margin: 21px 0;
+    text-align: center;
+    color: #fff !important;
+    font-size: 1em;
+    background: #FB5555;/*#7C0046*/
+    cursor: pointer;
+}
+
+.search-scanner-dialog .queding-btn {
+    color: #000;
+    text-align: center;
+    border-top: 1px solid #898989;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 54px;
+}
+
+.search-scanner-dialog .tijiaoinputNum {
+  font-size: 0.9em;
+  width: 245px !important;
+  height: 30px;
+  margin: 19px 0 7px 0;
+  border: 1px solid #CCCCCC;
+}
+
+/* 区域填写弹出框 */
+.areaDialog {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    height: 255px;
+    z-index: 1000;
+    border-radius: 3px;
+    margin: -150px 0 0 -150px;
+    font-size: 1em;
+    background: #F4F4F4;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* 验证是否输入身份号的那个文本框 */
+#j-accountDialog{
+    height: 214px !important;
+}
+.areaDialog .title {
+    width: 100%;
+    margin: 0;
+    height: 50px;
+    font-size: 1em;
+    line-height: 50px;
+    font-weight: bold;
+    color: #7C0046;
+    border-bottom: 2px solid #7C0046;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+.areaDialog .content {
+    top: 50px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 15px 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.areaDialog .content textarea {
+    width: 100%;
+    height: 120px;
+    font-family: XinGothic-SinaWeibo, Microsoft Yahei, helvetica, arial, Hiragino Sans GB, Droid san-sreif, enQuanYi Micro Hei;
+    font-size: 0.9em;/*修改前数值1.2em*/
+    border: 1px solid #B2B2B2;
+    padding: 10px;
+    margin: 0 0 10px 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* 验证是否输入身份号的那个文本框 */
+.dg .dg__content input{
+    width: 72%;
+    height: 30px;
+    background: #F4F4F4;
+    display: inline-block;
+    border: none;
+    border-bottom: 1px solid #B2B2B2;
+    font-size: 14px;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 0 13px 0;
+
+}
+/* 验证是否输入身份号的那个文本框前面的字 */
+.dg .dg__content lable{
+    width: 25%;
+    padding-top: 9px;
+    font-size: 15px;
+    cursor: auto;
+}
+
+.areaDialog .closeBtn {
+    position: absolute;
+    width:50px;
+    height: 50px;
+    top: 0px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.dg .dg__contentdiv {
+    font-size: 13px;
+    line-height: 21px;
+    color: #A9A9A9;
+} 
+
+/*首页下载提示框*/
+.dg .dg__contenthome {
+    min-height: 85px;
+    padding: 15px;
+    text-align: left;
+}
+
+.dg .dg__contenthomediv {
+    font-size: 0.9em;
+    line-height: 21px;
+    color: #000000;
+} 
+
+.areaDialog .area-cancel-box {
+    width:20px;
+    margin: 4px 20px;
+}
+.areaDialog .area-cancel-box img {
+    width: 100%;
+}
+.areaDialog .define-btn {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    color: #3E4346;
+    background-color: #E3E9ED;
+}
+
+/* 验证是否输入身份号的那个取消确认按钮 */
+.areaDialog .account-btn{
+    float: left;
+    width: 40%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    color: #3E4346;
+    background-color: #E3E9ED;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+
+/* 菜品口味弹出框 */
+.tasteDialog {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 280px;
+    z-index: 1000;
+    border-radius: 3px;
+    margin: 0 0 0 -140px;
+    font-size: 1em;
+    background: #F4F4F4;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.tasteDialog .title {
+    width: 100%;
+    margin: 0;
+    padding-left: 15px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #7C0046;
+    border-bottom: 2px solid #7C0046;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.tasteDialog .content {
+    top: 50px;
+    width: 100%;
+    padding: 0 10px;
+    margin: 10px 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tasteDialog .content ul li {
+    padding-left: 40px;
+    background: url('/img/base/circle.png') 7px center no-repeat;
+    line-height: 40px;
+    color: #898989;
+    border-bottom: 1px solid #F4E0F4;
+    cursor: pointer;
+}
+.tasteDialog .content ul li:hover {
+    /*background-color: #F4E0F4;*/
+}
+.tasteDialog .content .circleCurrent {
+    background:url('/img/base/circleCurrent.png') 7px center no-repeat;
+}
+
+/* 菜品详情弹出框 */
+.dishesDialog {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 80%;
+    height: 250px;
+    margin: -125px 0 0 -40%;
+    z-index: 1000;
+    color: #898989;
+    line-height: 1.5em;
+    border-radius: 10px;
+    background-color: #F4F4F4;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.dishesDialog .title {
+    padding: 10px 0;
+    color: #333333;
+    text-align: center;
+}
+.dishesDialog .closeBtn {
+    position: absolute;
+    width:50px;
+    height: 50px;
+    top: 0px;
+    right: 10px;
+}
+.dishes-cancel-box {
+    width:20px;
+    margin: 11px 20px;
+}
+.dishes-cancel-box img {
+    width: 100%;
+}
+.dishesDialog .content {
+    top: 45px;
+    width: 100%;
+    font-size:0.9em;
+    padding: 0px 10% 0px 10%;
+    margin-bottom: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.dishesDialog .dishImg {
+    width: 100%;
+    height: 170px;
+    overflow: hidden;
+}
+.dishesDialog .dishImg img {
+    width: 100%;
+}
+.dishesDialog ul {
+    margin-top: 15px;
+}
+.dishesDialog .titleWidth {
+    width: 70%;
+    display: inline-block;
+}
+.dishesDialog .countWidth {
+    width: 30%;
+    text-align: right;
+    display: inline-block;
+}
+
+/* 弹出框 */
+.dg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 280px;
+    min-height: 200px;
+    z-index: 1000;
+    border-radius: 3px;
+    margin: -100px 0 0 -140px;
+    background: #f4f4f4;
+    color: #777777;
+    font-size: 1em;
+    color: #000000;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.dg .dg__title {
+    width: 100%;
+    margin: 0;
+    padding-left: 15px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #585657;
+    border-bottom: 1px solid #CACACA;/*#7C0046;*/
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.dg .dg__content {
+    min-height: 70px;
+    padding: 15px;
+    text-align: left;
+}
+.dg .dg__content .detail-block {
+    margin: 15px 0 0 0;
+}
+.dg .dg__content p {
+    line-height: 20px;
+}
+/* 乐币充值返劵弹出层内容的样式 */
+p.recharge {
+    padding-bottom: 16px;
+}
+
+
+.dg .dg__content p.detail-title {
+    margin: 10px 0 10px 0;
+}
+.dg .dg__content p.detail {
+    font-size: 0.8em;
+}
+.dg .dg__content p b {
+    color: red;
+}
+.dg .btn_box {
+    width: 100%;
+    /*border-top: 1px solid #950456;*/
+    border-top: 1px solid #CACACA;
+    display: -moz-box;
+    display: -webkit-box;
+    display:-ms-flexbox;
+    display: box;
+}
+
+/* 两个按钮 */
+.dg .dg__left__btn,
+.dg .dg__right__btn,
+.dg .dg__center__btn {
+    height: 48px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 0.9em;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.dg .dg__left__btn {
+    width: 50%;
+    /*border-right: 1px solid #950456;*/
+    border-right: 1px solid #CACACA;
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    -ms-flex:1;
+}
+.dg .dg__right__btn {
+    width: 50%;
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    -ms-flex:1;
+    box-flex: 1;
+}
+/* 一个按钮 */
+.dg .dg__center__btn {
+    width: 100%;
+}
+
+/* 分享弹出框 */
+.dg-share {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 210px;
+    width: 100%;
+    z-index: 1000;
+    border-top: 1px solid #CCC;
+    background: #FFF;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -moz-box;
+    display: -webkit-box;
+}
+
+.dg-share .share_btn_content {
+    width: 100%;
+}
+
+.dg-share .share_btn {
+    width: 33%;
+    height: 53px;
+    margin: 55px 0 0 0;
+    cursor: pointer;
+}
+
+.dg-share .share_btnnoneqq {
+    width: 50%;
+    height: 53px;
+    margin: 55px 0 0 0;
+    cursor: pointer;
+}
+
+.dg-share .share_btnnoneqq p {
+    font-size:0.8em;
+    color:#999;
+    line-height:21px;
+}
+
+.dg-share .share_title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1em;
+    color: #898080;
+    font-weight: bold;
+
+}
+
+.dg-share .share_btn p {
+    font-size:0.8em;
+    color:#999;
+    line-height:21px;
+}
+
+.dg-share .share_btn img {
+    width: 68px;
+    height: 53px;
+}
+.dg-share .cancel {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px solid rgba(184, 179, 179, 0.49);
+    font-size: 1em;
+    color: #999;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* 便当地图查看 */
+.lunchDialog {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    font-size: 1em;
+    background: #F4F4F4;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.lunchDialog .title {
+    width: 100%;
+    margin: 0;
+    height: 50px;
+    font-size: 1em;
+    line-height: 50px;
+    font-weight: bold;
+    color: #7C0046;
+    border-bottom: 2px solid #7C0046;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+.lunchDialog .content {
+    top: 50px;
+    width: 100%;
+}
+.lunchDialog .closeBtn {
+    position: absolute;
+    width:50px;
+    height: 50px;
+    top: 0px;
+    right: 10px;
+}
+.lunchDialog .area-cancel-box {
+    width:20px;
+    margin: 4px 20px;
+    cursor: pointer;
+}
+.lunchDialog .area-cancel-box img {
+    width: 100%;
+}
+.lunchDialog .define-btn {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    border: none;
+    text-align: center;
+    color: #3E4346;
+    background-color: #E3E9ED;
+}
+.lunchDialog #lunch-content-box {
+
+}
+.lunchDialog #lunch-content-box img {
+    max-width: 100%;
+}
+
+/* 抵用券弹出层 */
+.vouchersDialog {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    height: 360px;
+    z-index: 1000;
+    border-radius: 3px;
+    margin: -180px 0 0 -150px;
+    font-size: 1em;
+    background: #F4F4F4;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.vouchersDialog .title {
+    width: 100%;
+    margin: 0;
+    height: 50px;
+    font-size: 1em;
+    line-height: 50px;
+    font-weight: bold;
+    color: #7C0046;
+    border-bottom: 2px solid #7C0046;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+.vouchersDialog .content {
+    top: 50px;
+    width: 100%;
+    bottom: 70px;
+    padding: 0 10px 0 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.vouchersDialog .content .con_pic {
+    margin: 10px 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.vouchersDialog .content textarea {
+    width: 100%;
+    height: 120px;
+    font-family: XinGothic-SinaWeibo, Microsoft Yahei, helvetica, arial, Hiragino Sans GB, Droid san-sreif, enQuanYi Micro Hei;
+    font-size: 0.9em;
+    border: 1px solid #B2B2B2;
+    padding: 10px;
+    margin: 0 0 10px 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.vouchersDialog .closeBtn {
+    position: absolute;
+    width:50px;
+    height: 50px;
+    top: 0px;
+    right: 10px;
+}
+.vouchersDialog .area-cancel-box {
+    width:20px;
+    margin: 4px 20px;
+}
+.vouchersDialog .area-cancel-box img {
+    width: 100%;
+}
+.vouchersDialog .define-btn {
+    position: absolute;
+    bottom: 15px;
+    width: 290px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    margin: 0 5px;
+    border: none;
+    text-align: center;
+    color: #3E4346;
+    background-color: #E3E9ED;
+}
+
+/* 抵用券列表样式 */
+.pg-payorder #vouchers-list {
+    padding: 0px 0px 24px 0px;
+}
+.pg-payorder #vouchers-list li {
+    height: 60px;
+    padding: 7px 0;
+    border-bottom: 1px dotted #B2B2B2;
+}
+.pg-payorder #vouchers-list li .vouchers_img {
+    float: left;
+    width: 33%;
+    position: relative;
+}
+.pg-payorder #vouchers-list li .vorchercost {
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+}
+.pg-payorder #vouchers-list li .vouchers_img img {
+    width: 100%;
+    height: 60px;
+}
+.pg-payorder .vouchers_content {
+    float: left;
+    width: 65%;
+    padding: 0 0 0 2%;
+    font-size: 0.8em;
+}
+.pg-payorder .vouchers_content_name {
+    height: 20px;
+    margin: 0 0 10px 0;
+    color:#898989;
+}
+.pg-payorder .vouchers_name {
+    height: 18px;
+    overflow: hidden;
+}
+.pg-payorder .vouchers_amount {
+    color: #898989;
+    float: left;
+    margin-top: 14px;
+}
+.pg-payorder .vouchers_content_operate {
+    float: right;
+    height: 30px;
+}
+.pg-payorder .vouchers_add,
+.pg-payorder .vouchers_noadd,
+.pg-payorder .vouchers_count,
+.pg-payorder .vouchers_lower {
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #7C0046;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* 抵用券的+ - */
+.pg-payorder .vouchers_add,
+.pg-payorder .vouchers_noadd,
+.pg-payorder .vouchers_lower {
+    width: 34px;
+}
+.pg-payorder .vouchers_noadd {
+    float: right;
+    border: 1px solid #A0A0A0;
+    background: url('/img/base/leshicons.png') no-repeat -19px -175px;
+    background-size: 740% 950%;
+}
+.pg-payorder .vouchers_add {
+    float: left;
+    background: #F3EAE5 url('/img/base/leshicons.png') no-repeat 11px -175px;
+    background-size: 740% 950%;
+    border-left: none;
+}
+.pg-payorder .vouchers_lower {
+    float: left;
+    background: #F3EAE5 url('/img/base/leshicons.png') no-repeat -50px -175px;
+    background-size: 740% 950%;
+    border-right: none;
+}
+.pg-payorder .vouchers_count {
+    float: left;
+    width: 31px;
+    font-size:1em;
+    text-align: center;
+    border-left: none;
+    border-right: none;
+    color: #7C0046;
+    background-color: #F3EAE5;
+}

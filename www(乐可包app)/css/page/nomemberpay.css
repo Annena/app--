@@ -1,0 +1,1183 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2015-11-28 10:55:36
+ * @version $Id$
+ */
+/*顶部样式*/
+/*html {
+    background: #FFFFFF;
+}*/
+
+.pg-nomemberpay #payorderScroll {
+    width: 100%;
+    
+}
+.pg-nomemberpay div[data-id="scroller"]{
+    padding-bottom: 100px;
+}
+
+.pg-nomemberpay .order-icon-wrap {
+    position: absolute;
+    left: 17px;
+    top: 10px;
+    width: 52px;
+    height: 35px;
+    padding-top: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.pg-nomemberpay .order-header {
+    background: url('../../img/base/header.png') repeat-x 0px -259px;
+    color: #FFFFFF;
+    position: fixed;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.pg-nomemberpay .order-header i {
+    display: block;
+    width: 30px;
+    height: 22px;
+    background: url("../../img/base/home-icons2.png?v=201606301539") no-repeat;
+    -webkit-background-size: 28px auto;
+    -moz-background-size: 28px auto;
+    background-size: 28px auto;
+}
+
+.pg-nomemberpay .order-header i.order-icon {
+    background-position: 0 -65px;
+}
+
+.pg-nomemberpay .order-title {
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+/*内容部分*/
+.pg-nomemberpay .order-nav {
+    top:30px;
+    padding: 5% 5%;
+    border-width: 1px 0;
+    /* position: relative; */
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    background: #ededed;
+}
+.pg-nomemberpay .order-info-bottom {
+    padding-bottom: 30px;
+}
+
+.pg-nomemberpay .order-info ul {
+    text-align: left;
+    color: #9c9c9c;
+    padding: 0 5%;
+}
+
+/*灰色*/
+.pg-nomemberpay .order-infoback {
+    background: #F9F4F4;
+    color: #DEDEDE;
+}
+.pg-nomemberpay .order-infokouwei {
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 21px;
+  /*color: rgb(156, 156, 156) !important;*/
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.pg-nomemberpay .order-topic {
+    background: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 1px solid #DEDEDE;
+    margin-top: 20px;
+    width: 112%;
+    margin-left: -6%;
+    padding: 4% 5%;
+}
+
+.pg-nomemberpay .order-topic span {
+    background: #ededed;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+    float: right;
+    color: #FB5555;
+    text-decoration: underline;
+}
+
+.pg-nomemberpay .order-beizhu {
+    border: 1px solid #DEDEDE;
+    background: #FFFFFF;
+    margin: 5% 0 0 0;
+    text-align: left;
+}
+
+.pg-nomemberpay .order-beizhu ul {
+    text-align: left;
+    color: #9c9c9c;
+}
+
+.pg-nomemberpay .order-beizhu ul li {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 21px;
+    padding: 3% 5%; 
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.pg-nomemberpay .order-beizhu ul li span {
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 3%;
+}
+
+.pg-nomemberpay .order-beizhu ul li input {
+    font-size: 13px;
+    border: none;
+}
+
+.pg-nomemberpay .order-footer {
+    background: rgba(95, 95, 95, 1);
+}
+
+.pg-nomemberpay .order-footer-preferential {
+    width: 22%;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 50px;
+    text-align: left;
+    float: left;
+    overflow: hidden;
+}
+
+.pg-nomemberpay .order-footer-small {
+    padding-left: 8%;
+    font-size: 14px;
+    float: left;
+}
+
+.pg-nomemberpay .order-footer-big {
+    text-align: right;
+}
+
+.pg-nomemberpay .order-footer-button {
+    width: 33%;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    float: right;
+    background: #E70012;
+    color: #FFFFFF;
+}
+
+.pg-nomemberpay .order-info .comment-title {
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    color: #A07D91;
+    /*padding-left: 2%;*/
+    height: 39px;
+}
+
+.pg-nomemberpay .order-info .comment-txt {
+    color: #7A7474;
+    line-height: 25px;
+    width: 100%;
+    padding-left: 2%;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.pg-nomemberpay .order-info .comment-del {
+    font-size: 14px;
+    color: #7C0046;
+    text-align: right;
+    height: 25px;
+    cursor: pointer;
+    line-height: 25px;
+    padding-right: 5px;
+    overflow: hidden;
+}
+
+.pg-nomemberpay .order-info .commentli {
+    border-bottom: 1px dotted #D8D3D3;
+}
+
+.pg-nomemberpay .order-info .comments_caption {
+    font-size: 12px;
+    color: #A67892;
+    font-weight: bold;
+    /*padding: 10px 15px;*/
+    border-bottom: dotted 1px #ECECEC;
+}
+
+.pg-nomemberpay .order-info .comments_caption p {
+    font-size: 12px;
+    margin: 3px;
+    color: #A38295;/*#9D4074*/
+    font-weight: normal;
+}
+
+.pg-nomemberpay .order-info .comments_caption p img {
+    width: 80px;
+}
+
+/*选中抵用券*/
+
+.pg-nomemberpay .wancheng-icon-wrap {
+  position: absolute;
+  right: 17px;
+  top: -5px;
+  width: 37px;
+  height: 35px;
+  padding-top: 4px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.pg-nomemberpay .vorchers-check {
+  position: absolute;
+  margin-top: 2.7rem;;/*13%*/
+  left: 4%;
+  width: 28px;
+  border-radius: 45px;
+  background: url(../../img/base/check.png) no-repeat -0.5625rem -0.0625rem;
+  background-size: 31px;
+  height: 28px;
+  color: #FFFFFF;
+}
+ /*订单支付页面，选择支付*/
+.pg-nomemberpay .s_ding_wrap>span:first-child{
+      float:none !important;
+      font-size: 12px !important;
+}
+.pg-nomemberpay .s_ding_wrap u{
+    position: absolute;
+    right: 5%;
+    color: red;
+}
+
+.pg-nomemberpay .s_ding_wrap .s_vouch{
+    background: #e70012;
+    border-radius: 3px;
+    color: #fff;
+    padding:4px !important;
+    height: auto !important;
+    line-height: auto !important; 
+    float:none !important;
+} 
+.pg-nomemberpay .s_ding_wrap .s_vouch b{
+    font-size: 12px !important;
+    display:inline-block;
+    margin-top:-3px;
+}
+.pg-nomemberpay .s_ding_wrap>span svg.yuan{ height:16px; width:16px; margin-top:-4px; }
+.pg-nomemberpay .s_ding_wrap>span svg.down{ height:10px; width:10px; margin-top:-4px; padding-right: 2px;}
+.pg-nomemberpay .s_ding_wrap .s_vouch>*{display: inline-block; vertical-align: middle;}
+.pg-nomemberpay .s_ding_wrap .s_useLe{ float:none !important; }
+.pg-nomemberpay .setBg{background:#E3E3E3 !important;}
+.pg-nomemberpay .setCol{color:#333;}
+
+
+@media screen and (min-width: 360px) and (max-width: 375px)  {
+    .pg-nomemberpay .vorchers-check {
+        position: absolute;
+        margin-top: 2.9rem;
+        left: 4%;
+        width: 28px;
+        border-radius: 45px;
+        background: url(../../img/base/check.png) no-repeat -0.5625rem -0.0625rem;
+        background-size: 31px;
+        height: 28px;
+        color: #FFFFFF;
+    }
+}
+
+.pg-nomemberpay .payorder-youjiantou {
+    box-sizing: border-box;
+    width: 1rem;/*2rem*/
+    height: 20px;
+    background-image: url(../../img/base/youjiantou.png);
+    /*background-size: 53%;
+    background-position: 15px 2px;*/
+    background-size: 91%;
+    background-position: 5px 3px;
+    background-repeat: no-repeat;
+    float: right;
+}
+
+.pg-nomemberpay .subset_icon {
+    float: right;
+    width: 28px;
+    height: 26px;/*30*/
+    background: url(../../img/base/leshicons2.png?v=201606301545) no-repeat 7px -96px;
+    background-size: 189% 1509%;
+    /*background: url(../../img/base/leshicons2.png) no-repeat -31px -79px;*//*-31px -77px*/
+    /*background-size: 201% 1230%;*//*201% 1150%;*/
+}
+
+.pg-nomemberpay .subset_icon_chcked {
+    /*background-size: 201% 1150%;
+    background-position: 10px -71px;*/
+    background-size: 189% 1509%;
+    background-position: 7px -69px;
+}
+
+.pg-nomemberpay .pg-nomemberpay div[data-id="wrapper"] {
+    position: absolute;
+    top: 50px !important;
+    bottom: 0px;
+    overflow: hidden;
+}
+
+/*暂无点评样式*/
+.pg-nomemberpay .zanwu {
+    font-size: 14px;
+    color: #A4A4A4;
+    margin-top: 28px;
+}
+
+
+/*选择抵用券部分*/
+
+/*顶部样式*/
+.pg-nomemberpay .vouchers-icon-wrap {
+    position: absolute;
+    left: 17px;
+    top: 10px;
+    width: 52px;
+    height: 35px;
+    padding-top: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.pg-nomemberpay .vouchers-header {
+    background: url('../../img/base/header.png') repeat-x 0px -259px;
+    color: #FFFFFF;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.pg-nomemberpay .vouchers-header i {
+    display: block;
+    width: 30px;
+    height: 22px;
+    background: url("../../img/base/home-icons2.png") no-repeat;
+    -webkit-background-size: 28px auto;
+    -moz-background-size: 28px auto;
+    background-size: 28px auto;
+}
+
+.pg-nomemberpay .select-vouchers-icon-wrap {
+    position: absolute;
+    left: 17px;
+    top: 10px;
+    width: 52px;
+    height: 35px;
+    padding-top: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.pg-nomemberpay .vouchers-header i.select-vouchers-icon {
+    background-position: 0 -65px;
+}
+
+.pg-nomemberpay .vouchers-header i.select-edit-icon {
+    background-position: 0 -99px;
+}
+
+.pg-nomemberpay .vouchers-header i.vouchers-icon {
+    background-position: 0 -65px;
+}
+
+.pg-nomemberpay .vouchers-header i.edit-icon {
+    background-position: 0 -99px;
+}
+
+.pg-nomemberpay .vouchers-title {
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+/*卡片部分*/
+.pg-nomemberpay .vouchers-nav {
+    top: 50px !important;/*67*/
+    padding-bottom: 63px;
+    padding-top: 17px;
+    border-width: 1px 0;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    background: #FFFFFF;
+    
+}
+
+.pg-nomemberpay .selcet-vouchers-nav {
+    top: 50px;
+    padding-bottom: 63px;
+    border-width: 1px 0;
+    /* position: fixed;relative */
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    background: #FFFFFF;
+    z-index: 999999;
+    padding-top: 20px; 
+}
+
+/*背景一*/
+.pg-nomemberpay .vouchers-content {
+    height: 8rem;
+    width: 21rem;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 15px 12px 15px;
+    background: url(../../img/base/voucher.png) repeat-x 0px -1px;
+    background-size: 21rem;
+}
+
+.pg-nomemberpay .vouchers-content-grey {
+    height: 8rem;
+    width: 21rem;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 15px 12px 15px;
+    background: url(../../img/base/voucher-grey.png) repeat-x 0px -1px;
+    background-size: 21rem;
+}
+
+.pg-nomemberpay .vouchers-content-gq {
+    height: 8rem;
+    width: 21rem;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 15px 12px 15px;
+    background: url(../../img/base/voucher-gq.png) repeat-x 0px -1px;
+    background-size: 21rem;
+}
+
+.pg-nomemberpay .vouchers-left {
+    width: 13rem;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.pg-nomemberpay .vouchers-right {
+    width: 5rem;
+    margin-left: 0.3rem;
+    margin-top: 0.3rem;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.pg-nomemberpay .vorchers-explain-title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.pg-nomemberpay .vorchers-explain-futitle {
+    font-size: 12px;
+    color: #FAABBF;
+    /*margin-top: 2.8rem;*/
+    position: relative;
+    bottom: -3.2rem;
+}
+
+.pg-nomemberpay .vorchers-right-title {
+    font-weight: normal;
+    font-size: 38px;/*52*/
+    color: #FFFFFF;
+    height: 4rem;/*4.5rem*/
+}
+
+.pg-nomemberpay .vorchers-right-title span {
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.pg-nomemberpay .vorchers-right-title b {
+    font-weight: normal;
+}
+
+.pg-nomemberpay .vorchers-right-futitle {
+    font-size: 12px;
+    color: #FAABBF;
+    padding-bottom: 12px;
+    line-height: 10px;
+}
+
+.pg-nomemberpay .vorchers-right-futitle p {
+    font-size: 12px !important;
+    color: #FAABBF !important;
+    line-height: 10px;
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 359px)  {
+   .pg-nomemberpay .vorchers-explain-title {
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    }
+
+    .pg-nomemberpay .vorchers-explain-futitle {
+        font-size: 10px;
+        color: #FAABBF;
+        /*margin-top: 3rem;*/
+        position: relative;
+        bottom: -2.3rem;
+    }
+
+    .pg-nomemberpay .vorchers-right-title {
+        font-weight: normal;
+        font-size: 28px;/*42px*/
+        color: #FFFFFF;
+        height: 4rem;/*4.5rem*/
+    }
+
+    .pg-nomemberpay .vorchers-right-title span {
+        font-weight: normal;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+
+    .pg-nomemberpay .vorchers-right-futitle {
+        font-size: 10px;
+        color: #FAABBF;
+        padding-bottom: 12px;
+    }
+
+    .pg-nomemberpay .vorchers-right-futitle p {
+        font-size: 10px !important;
+        color: #FAABBF !important;
+    } 
+}
+
+@media screen and (min-width: 360px) and (max-width: 375px)  {
+   .pg-nomemberpay .vorchers-explain-title {
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    }
+
+    .pg-nomemberpay .vorchers-explain-futitle {
+        font-size: 10px;
+        color: #FAABBF;
+        /*margin-top: 3rem;*/
+        position: relative;
+        bottom: -2.8rem;
+    }
+
+    .pg-nomemberpay .vorchers-right-title {
+        font-weight: normal;
+        font-size: 28px;/*42px*/
+        color: #FFFFFF;
+        height: 4rem;/*4.5rem*/
+    }
+
+    .pg-nomemberpay .vorchers-right-title span {
+        font-weight: normal;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+
+    .pg-nomemberpay .vorchers-right-futitle {
+        font-size: 10px;
+        color: #FAABBF;
+        padding-bottom: 12px;
+    }
+
+    .pg-nomemberpay .vorchers-right-futitle p {
+        font-size: 10px !important;
+        color: #FAABBF !important;
+    } 
+}
+
+/*领券后字体配置*/
+
+.pg-nomemberpay .vorcher-grey-explain-title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #595757;
+}
+
+.pg-nomemberpay .vorcher-grey-explain-futitle {
+    font-size: 12px;
+    color: #ABA9A9;
+    /*margin-top: 2.8rem;*/
+    position: relative;
+    bottom: -2.3rem;
+}
+
+.pg-nomemberpay .vorcher-grey-right-title {
+    font-weight: normal;
+    font-size: 52px;
+    color: #595757;
+    height: 4rem;/*4.5rem*/
+}
+
+.pg-nomemberpay .vorcher-grey-right-title span {
+    font-weight: normal;
+    font-size: 18px;
+    color: #595757;
+}
+
+.pg-nomemberpay .vorcher-grey-right-futitle {
+    font-size: 12px;
+    color: #ABA9A9;
+    padding-bottom: 12px;
+    line-height: 10px;
+}
+
+.pg-nomemberpay .vorcher-grey-right-futitle p {
+    font-size: 12px !important;
+    color: #ABA9A9 !important;
+    line-height: 10px;
+}
+
+@media screen and (max-width:320px) {
+   .pg-nomemberpay .vorcher-grey-explain-title {
+    font-weight: bold;
+    font-size: 14px;
+    color: #595757;
+    }
+
+    .pg-nomemberpay .vorcher-grey-explain-futitle {
+        font-size: 10px;
+        color: #ABA9A9;
+        margin-top: 2.8rem;
+    }
+
+    .pg-nomemberpay .vorcher-grey-right-title {
+        font-weight: normal;
+        font-size: 42px;
+        color: #595757;
+        height: 4rem;/*4.5rem*/
+    }
+
+    .pg-nomemberpay .vorcher-grey-right-title span {
+        font-weight: normal;
+        font-size: 16px;
+        color: #595757;
+    }
+
+    .pg-nomemberpay .vorcher-grey-right-futitle {
+        font-size: 10px;
+        color: #ABA9A9;
+        padding-bottom: 12px;
+    }
+
+    .pg-nomemberpay .vorcher-grey-right-futitle p {
+        font-size: 10px !important;
+        color: #ABA9A9 !important;
+    } 
+}
+
+/* 没有更多抵用券 */
+
+.pg-nomemberpay .no-more {
+    font-size: 14px;
+    color: #595757;
+}
+
+.pg-nomemberpay .no-more span {
+    padding-left: 5px;
+    color: #e60012;
+    font-weight: bold;
+}
+
+.pg-nomemberpay .nowu {
+    font-size: 14px;
+    color: #595757;
+    margin: 0 auto;
+}
+
+/*选中抵用券*/
+
+.pg-nomemberpay .wancheng-icon-wrap {
+  position: absolute;
+  right: 17px;
+  top: -3px;
+  width: 37px;
+  height: 35px;
+  padding-top: 4px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/*.pg-nomemberpay .vorchers-check {
+  position: absolute;
+  margin-top: 12%;
+  left: 4%;
+  width: 28px;
+  border-radius: 45px;
+  background: url(../../img/base/check.png) no-repeat -6px 1px;
+  background-size: 31px;
+  height: 28px;
+  color: #FFFFFF;
+}*/
+
+.pg-nomemberpay .quxiao-icon-wrap {
+    position: absolute;
+    left: 17px;
+    top: -3px;
+    width: 52px;
+    height: 35px;
+    padding-top: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/*退菜赠菜标识*/
+.pg-nomemberpay .tuizeng {
+    width: 20px;
+    float: left;
+    font-size: 12px;
+    background: #FB5555;
+    text-align: center;
+    color: #ffffff;
+    margin-right: 6px;
+    border-radius: 5px;
+}
+
+.pg-nomemberpay .pricespan {
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+}
+
+
+.pg-nomemberpay .storeinformation{
+    height: 70px;
+    width: 112%;
+    background: url(../../img/base/pg-payorderStoreinformation.png) no-repeat;
+    position: relative;
+    top: 0px;
+    background-size: cover;
+    left: -6%;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.pg-nomemberpay .storeimg{
+    width: 45px;
+    margin-left: 5%;
+    display: inline-block;
+    margin-top: 13px;
+}
+.pg-nomemberpay .storeimg img{
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+}
+.pg-nomemberpay .storename {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    padding-top: 14px;
+    padding-left: 12px;
+    line-height: 22px;
+}
+.pg-nomemberpay .storename p:nth-child(2){
+    font-size: 12px;
+    color: #999;
+}
+.pg-nomemberpay .payments{
+    text-align: left;
+    padding: 3% 5% 0% 5%;
+    background-size: 133px;
+    position: relative;
+    font-size: 14px;
+}
+.pg-nomemberpay .payments p:nth-child(3){
+    font-size: 12px;
+    color: #999999;
+    font-weight: 100;
+    background: #f2f2f2;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 4%;
+}
+.pg-nomemberpay .payments h2{
+    padding-left: 22px;
+    color: #ff0000;
+    font-size: 34px;
+    margin: 5px 0;
+    border-bottom: 1px solid #dfdfdf;
+    height: 55px;
+    position: relative;
+
+}
+.pg-nomemberpay .payments p:nth-child(3) span{
+    width: 50%;
+    display: inline-block;
+}
+.pg-nomemberpay .payments p:nth-child(3) span:nth-child(2){
+    text-align: right;
+}
+.pg-nomemberpay .storename .shopName{
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.pg-nomemberpay .discountRate{
+    color: #333;
+}
+.pg-nomemberpay .orderNote{
+    font-size: 13px;
+    border: none;
+}
+.pg-nomemberpay .Notpay{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 70px;
+}
+.pg-nomemberpay .dishinformation{
+    width: 102%;
+    margin-left: -6%;
+    padding: 0% 5%;
+}
+.pg-nomemberpay .dishinformation .clearfix{
+    border-bottom: 0;
+}
+.pg-nomemberpay .yinying{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+.pg-nomemberpay .order-topic u{
+    width: 2px;
+    height: 13px;
+    display: inline-block;
+    margin-right: 5px;
+    background: #000;
+
+}
+.pg-nomemberpay .state p u{
+    text-decoration: none;
+    color: #999;
+    width: 44%;
+    display: inline-block;
+    background: url(../../img/base/pg-payorderTime.png) no-repeat 0px 3px;
+    background-size: 15px;
+    padding-left: 20px;
+}
+.pg-nomemberpay .order-info ul .state p{
+    padding: 0;
+}
+.pg-nomemberpay ul .state p u:nth-child(2){
+    text-align: right;
+    background: url(../../img/base/pg-payorderState.png) no-repeat 69% 2px;
+    background-size: 16px;
+}
+.pg-nomemberpay .order-info ul .orderid{
+    text-align: right;
+    border:0;
+}
+.pg-nomemberpay .dishinformation .bgcf2{
+    background: #f2f2f2;
+}
+.pg-nomemberpay .shopname{
+    font-size: 14px;
+}
+.pg-nomemberpay .tableNameDispalay{
+    position: absolute;
+    right: 6%;
+    top: 15px;
+    padding-left: 3%;
+}
+.pg-nomemberpay .tableNameDispalay i{
+    display: inline-block;
+    width: 1px;
+    height: 40px;
+    background: #999999;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.pg-nomemberpay .tableNameDispalay p:nth-child(2){
+    font-size: 12px;
+}
+.pg-nomemberpay .tableNameDispalay p:nth-child(3){
+    font-size: 18px;
+    color: #ff0000;
+    font-weight: bold;
+    line-height: 28px;
+}
+.pg-nomemberpay .order-title u{
+    text-decoration: none;
+    font-size: 14px;
+    position: absolute;
+    right: 4%;
+    background: url("../../img/base/sx.png") 5px 7px no-repeat;
+    background-size: 18px;
+    line-height: 50px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    height: 50px;
+}
+.pg-nomemberpay .buyLe{
+    margin-left: 10%;
+    color: #ff0000;
+}
+.pg-nomemberpay .order-info ul .lired{
+    color: red;
+}
+.pg-nomemberpay .libl{
+    color: #000;
+}
+.pg-nomemberpay .memberDiscount{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: #FFFFFF;
+    text-align: left;
+    position: relative;
+    padding: 0 5%;
+    margin-bottom: 10px;
+}
+
+.pg-nomemberpay .memberDiscount p{
+    height: 45px;
+    border-bottom: 1px solid #dfdfdf;
+    line-height: 45px;
+    color: #999999;
+    font-size: 14px;
+    position: relative;
+}
+.pg-nomemberpay .memberDiscount p span{
+    position: absolute;
+    right: 5%;
+    color: #333333;
+}
+.pg-nomemberpay .memberDiscount p:nth-child(4) span{
+    position: relative;
+    right: inherit;
+}
+.pg-nomemberpay #backNomelogin{
+    position: absolute;
+    right: 10px;
+    color: red;
+    background: url("../../img/base/pg-nomemberpayking.png")0px no-repeat;
+    background-size: 18px;
+    padding-left: 20px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 17px;
+}
+.pg-nomemberpay .memberDiscount p span{
+    position: absolute;
+    right: 5%;
+    color: #333333;
+}
+.pg-nomemberpay .memberDiscount p i{
+    display: inline-block;
+    width: 105px;
+    text-align: right;
+    font-style: normal;
+}
+.pg-nomemberpay .order-info ul .clearfix .mengspan{
+    float: inherit;
+    width: 50%;
+    display: inline-block;
+    font-size: 12px;
+}
+.pg-nomemberpay .order-info ul .clearfix .mengspan b{
+      text-align: left;
+      width: 30%;
+      font-size: 12px;
+}
+.pg-nomemberpay .order-info ul .clearfix .mengspan .oneu{
+      width: 20px;
+    float: right;
+}
+.pg-nomemberpay .order-info ul .clearfix .mengspan .twou{
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+    float: right;
+    margin-right: 5px;
+}
+.pg-nomemberpay .order-info ul .clearfix .mengspan u i:nth-child(1){
+    right: inherit;
+    line-height: normal;
+    color: #333;
+    padding: 0;
+    width: 20%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    line-height: 22px;
+}
+.pg-nomemberpay .order-info ul .clearfix .mengspan u i:nth-child(2){
+  text-align: right;
+    display: inline-block;
+    font-size: 12px;
+    color: #333;
+    padding: 0;
+    right: inherit;
+
+}
+.pg-nomemberpay .order-info ul .clearfix .mengspan u i:nth-child(2){
+    text-align: right;
+    display: inline-block;
+    font-size: 12px;
+    color: #888;
+    position: absolute;
+    right: 10%;
+}
+.pg-nomemberpay .order-info ul{
+    text-align: left;
+    color: #9c9c9c;
+    padding: 0 5%;
+    background: #fff;
+    margin-top: 10px;
+}
+.pg-nomemberpay .order-info ul li{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 21px;
+    padding: 3% 0%;
+    border-bottom: 1px solid #dfdfdf; 
+}
+
+.pg-nomemberpay .order-info ul li p {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 21px;
+    color: #c9c9c9;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-left: 2em;
+    overflow: hidden;
+}
+.pg-nomemberpay .state p u {
+    text-decoration: none;
+    color: #000;
+    width: 44%;
+    display: inline-block;
+    background: url(../../img/base/pg-payorderTime.png) no-repeat 1px 3px;
+    background-size: 15px;
+    padding-left: 30px;
+}
+.pg-nomemberpay ul .state p u:nth-child(2) {
+    text-align: right;
+    background-size: 16px;
+    padding: 0px;
+    background: none;
+}
+.pg-nomemberpay .order-info ul .clearfix .mengspan {
+    float: inherit;
+    width: 50%;
+    display: inline-block;
+    font-size: 12px;
+}
+.pg-nomemberpay .order-info ul .clearfix .mengspan {
+    float: inherit;
+    width: 50%;
+    display: inline-block;
+    font-size: 12px;
+    height: 20px;
+    font-weight: normal;
+    padding-right: 0%;
+    color: #888;
+}
+.pg-nomemberpay .order-info ul li i {
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 21px;
+    padding-right: 3%;
+    font-style: normal;
+    color: #888;
+    position: absolute;
+    right: 7%;
+}
+.pg-nomemberpay ul .state p u:nth-child(2) i:nth-child(1) {
+    position: inherit;
+    right: inherit;
+    line-height: normal;
+    color: #333;
+    padding: 0;
+    width: 16.5%;
+    display: inline-block;
+    text-align: left;
+}
+.pg-nomemberpay ul .state p u:nth-child(2) i:nth-child(2) {
+    text-align: right;
+    width: 35%;
+    display: inline-block;
+    font-size: 12px;
+    color: #333;
+    padding: 0;
+    position: initial;
+    right: inherit;
+}
+.pg-nomemberpay .order-info ul .clearfix .mengspan b {
+    text-align: right;
+    width: 40%;
+    font-size: 12px;
+    font-weight: normal;
+    display: inline-block;
+}
+.pg-nomemberpay .memberDiscount p .sub_moneyu{
+    text-decoration: none;
+    width: 49%;
+    display: inline-block;
+    /* overflow: hidden; */
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    position: absolute;
+    top: 0;
+}
+
+.pg-nomemberpay .addorder{
+    background: #ff9c00;
+    color: #fff;
+}

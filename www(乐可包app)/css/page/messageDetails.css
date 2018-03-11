@@ -1,0 +1,183 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2015-11-28 10:55:36
+ * @version $Id$
+ */
+/*顶部样式*/
+.pg-messagedetails .newscontent-icon-wrap {
+    position: absolute;
+    left: 17px;
+    top: 10px;
+    width: 52px;
+    height: 35px;
+    padding-top: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.pg-messagedetails .newscontent-header {
+    background: url('../../img/base/header.png') repeat-x 0px -259px;
+    color: #FFFFFF;
+    position: fixed;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.pg-messagedetails .newscontent-header i {
+    display: block;
+    width: 30px;
+    height: 22px;
+    background: url("../../img/base/home-icons1.png") no-repeat;
+    -webkit-background-size: 28px auto;
+    -moz-background-size: 28px auto;
+    background-size: 28px auto;
+}
+
+.pg-messagedetails .newscontent-header i.newscontent-icon {
+    background-position: 0 -65px;
+}
+
+.pg-messagedetails .newscontent-title {
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+/*卡片部分*/
+.pg-messagedetails .newscontent-nav {
+    width: 91%;
+    top: 45px;
+    padding-bottom: 63px;
+    border-width: 1px 0;
+    margin: 15px;
+    /* position: relative; */
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.pg-messagedetails .newscontent-hot-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #C0C0C0;
+}
+
+.pg-messagedetails .newscontent-hot-title p {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 21px;
+    text-align: left;
+}
+
+.pg-messagedetails .newscontent-content {
+    font-size: 14px;
+    color: #666666;
+    text-align: left;
+    line-height: 21px;
+    margin-top: 5px;
+}
+
+.pg-messagedetails .newscontent-content p img {
+    width: 100%;
+}
+
+/*微信分享*/
+.news-icon-share {
+    position: absolute;
+    right: 0;
+    top: 9px;
+    width: 3.25rem;
+    height: 2.2rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+.news-icon-share .share-icon {
+    background-position: 0 -130px !important;
+}
+.news-icon-share span {
+    display: block;
+    width: 53px;
+    height: 22px;
+    font-size: 12px;
+    margin-top: -18px;
+    text-align: left;
+    color: #E4D1D1;
+}
+
+/*微信分享弹框*/
+.news_share_box{
+    background-color: #EDEDED;
+    display: block;
+    height: 130px;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+    bottom:0;
+}
+.news_share_box .wx_share{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 130px;
+    width: 100%;
+    z-index: 1000;
+    border-top: 1px solid #CCC;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -moz-box;
+    display: -webkit-box;
+    background: #fff;
+}
+.wx_share .share_title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1em;
+    color: #898080;
+    font-weight: bold;
+}
+.wx_share .share_btn {
+    width: 33%;
+    height: 53px;
+    margin: 18px 0 0 0;
+    cursor: pointer;
+}
+.wx_share .share_btn img {
+    width: 64px;
+}
+.wx_share .share_btn p {
+    font-size: 0.9em;
+    color: #000;
+    line-height: 21px;
+    margin-top:-10px;
+}
+
+/* 乐卡包下载按钮 */
+.pg-messagedetails .fixed_down{ 
+        background: rgba(255,255,255,0.2);
+        width:89%;/* 100% */
+        position: fixed;
+        top:0;
+        z-index: 60;
+    }
+.pg-messagedetails .fixed_down img{ width:100%; margin:0; padding: 0;}

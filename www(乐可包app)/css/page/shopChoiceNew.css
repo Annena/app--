@@ -1,0 +1,308 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 新店铺列表页面 (you@example.org)
+ * @date    2015-11-28 10:55:36
+ * @version $Id$
+ */
+/*顶部样式*/
+.pg-shopchoicenew html {
+    background: #ededed;
+}
+.pg-shopchoicenew .shoplist-icon-wrap {
+    position: absolute;
+    left: 17px;
+    top: 10px;
+    width: 52px;
+    height: 35px;
+    padding-top: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.pg-shopchoicenew .shoplist-header {
+    background: url('../../img/base/header.png') repeat-x 0px -259px;
+    color: #FFFFFF;
+    position: fixed;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.pg-shopchoicenew .shoplist-header i {
+    display: block;
+    width: 30px;
+    height: 22px;
+    background: url("../../img/base/home-icons2.png") no-repeat;
+    -webkit-background-size: 28px auto;
+    -moz-background-size: 28px auto;
+    background-size: 28px auto;
+}
+
+.pg-shopchoicenew .shoplist-header i.shoplist-icon {
+    background-position: 0 -65px;
+}
+
+.pg-shopchoicenew .shoplist-title {
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+/*内容部分*/
+.pg-shopchoicenew .shoplist-nav {
+    width: 100%;
+    top: 67px;
+    padding-bottom: 63px;
+    border-width: 1px 0;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.pg-shopchoicenew .shoplist-list-floor {
+    /*height: 3.125rem;*/
+    line-height: 3.125rem;
+    background: #FFF;
+    text-align: left;
+    margin-bottom: 15px;
+    /*border-bottom: 1px solid #c9caca;*/
+}
+
+.pg-shopchoicenew .shoplist-list {
+
+    /*height: 3.125rem;*/
+    line-height: 3.125rem;
+    background: #FFF;
+    text-align: left;
+    margin-bottom: 10px;/*10px*/
+    /*border-bottom: 1px solid #c9caca;*/
+}
+.pg-shopchoicenew .shoplist-list img {
+    width: 15px;
+    height: 15px;
+    vertical-align: text-bottom;
+    margin-right: 10px;
+}
+
+.pg-shopchoicenew .shoplist-list-title {
+    width: 100%;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+    /*line-height: 3.2125rem;*/
+}
+
+@media screen and  (min-width: 320px) and (max-width: 374px) {
+   .pg-shopchoicenew .shoplist-list-title {
+        width: 100%;
+        display: inline-block;
+        font-size: 14px;
+        font-weight: bold;
+        margin-top: 0.625rem;
+        /*line-height: 3.2125rem;*/
+    }
+}
+
+.pg-shopchoicenew .shoplist-list-futitle {
+    font-size: 14px;
+    color: #9c9c9c;
+    line-height: 21px;
+    overflow: hidden;
+}
+
+@media screen and  (min-width: 320px) and (max-width: 374px) {
+   .pg-shopchoicenew .shoplist-list-futitle {
+        font-size: 12px;
+        color: #9c9c9c;
+        line-height: 21px;
+    }
+}
+
+.pg-shopchoicenew .shoplist-list-futitle span {
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.pg-shopchoicenew .shoplist-youjiantou {
+    box-sizing: border-box;
+    width: 2rem;
+    height: 20px;
+    background-image: url(../../img/base/youjiantou.png);
+    background-size: 53%;
+    background-position: 15px 3px;
+    background-repeat: no-repeat;
+    float: right;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=30);
+    opacity: 0.5;
+}
+
+.pg-shopchoicenew .shoplist-left {
+    width: 100%;
+    display: inline-block;
+    line-height: 21px;
+}
+
+.pg-shopchoicenew .shoplist-right {
+    width: 45%;
+    display: inline-block;
+    line-height: 21px;
+    font-size: 42px;
+    font-weight: bold;
+    color: #9c9c9c;
+    text-align: right;
+}
+
+.pg-shopchoicenew .shoplist-right-red {
+    width: 45%;
+    display: inline-block;
+    line-height: 21px;
+    font-size: 42px;
+    font-weight: bold;
+    color: #F59AA1;
+    text-align: right;
+}
+
+.pg-shopchoicenew .shoplist-right span {
+    font-size: 18px;
+}
+
+.pg-shopchoicenew .shoplist-border {
+    line-height: 21px;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.pg-shopchoicenew .shoplist-status {
+    color: #888;
+    line-height: 21px;
+    padding-top: 5px;
+}
+
+.shopchoice-status-txt {
+    width: 100%;
+    display: inline-block;
+    font-size: 14px;
+    color: #9c9c9c;
+}
+
+.pg-shopchoicenew .shoplist-status-tell {
+    width: 100%;
+    display: inline-block;
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 2px;
+   /* margin-top: 5px;*/
+}
+.pg-shopchoicenew .ma_bo {
+    margin-bottom: 4px;
+}
+
+.pg-shopchoicenew .shoplist-status-tell a {
+    font-size: 12px;
+    color: #888;
+    text-decoration: underline;
+}
+
+.pg-shopchoicenew .shoplist-addr-title {
+    float: left;
+    font-size: 12px;
+}
+
+.pg-shopchoicenew .shoplist-addr-content {
+    float: left;
+    width: 87%;
+    font-size: 12px;
+}
+
+@media screen and  (min-width: 320px) and (max-width: 374px) {
+   .pg-shopchoicenew .shoplist-status-txt {
+        width: 100%;
+        display: inline-block;
+        font-size: 12px;
+        color: #888;
+    }
+
+    .pg-shopchoicenew .shoplist-status-tell {
+        width: 100%;
+        display: inline-block;
+        font-size: 12px;
+        color: #888;
+        /*margin-top: 5px;*/
+    }
+
+    .pg-shopchoicenew .shoplist-addr-title {
+        float: left;
+        font-size: 12px;
+    }
+
+    .pg-shopchoicenew .shoplist-addr-content {
+        float: left;
+        width: 87%;
+        font-size: 12px;
+    }
+}
+
+.pg-shopchoicenew .shoplist-status-button {
+    width: 67%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: inline-block;
+    font-size: 14px;
+    text-align: right;
+}
+
+.pg-shopchoicenew .shoplist-status-again {
+    font-size: 14px;
+    display: inline-block;
+    border: 1px solid #F6A8AF;
+    margin-left: 5px;
+    padding: 0 5px 0 5px;
+    border-radius: 5px;
+}
+
+.pg-shopchoicenew .shoplist-status-reviews {
+    font-size: 14px;
+    color: #FFFFFF;
+    display: inline-block;
+    border: 1px solid #F6A8AF;
+    background: #F6A8AF;
+    margin-left: 5px;
+    padding: 0 5px 0 5px;
+    border-radius: 5px;
+}
+
+.pg-shopchoicenew .shoplist-pitch {
+    margin-left: 4%;
+    margin-right: 4%;
+    overflow: hidden;
+    background: #FFFFFF;
+}
+
+
+/* 定位距离样式 */
+.pg-shopchoicenew .distance {
+    color: #fb5555;
+    float: right;
+}
+.pg-shopchoicenew .distanceLeft {
+    float: left;
+}
+.pg-shopchoicenew .peizhi img{
+    width: 20%;
+    margin-top: 110px;
+}
+.pg-shopchoicenew .peizhi p{
+    margin-top: 35px;
+    font-size: 12px;
+    color: #666;
+}

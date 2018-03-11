@@ -1,0 +1,138 @@
+.list ul {
+}
+.list ul li {
+    position: relative;
+    padding: 5px 14px 5px 14px;;/*原值:5px*/
+    border-bottom: 1px dotted #B2B2B2;
+    font-size: 0.9em;
+    color: #898989;
+}
+
+.list ul li .vouchers_list {
+    padding: 0 11px;
+    left: 0;
+    right: 0;
+}
+
+/* 列表标题 */
+.list .title {
+    height: 26px;
+    line-height: 26px;
+    padding-left: 25px;
+    cursor: pointer;
+    display: -moz-box;
+    display: -webkit-box;
+}
+.list .title .list_icon {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 14px;/*原值：6px*/
+    top: 10px;
+    background: url('/img/base/leshicons.png') no-repeat;
+    background-size: 1400% 1400%;
+}
+.list .title .list_title {
+    width: 70%;
+    font-size: 15px;
+    color: #706E6F;
+    font-weight: bold;
+}
+.list .title .list_title span {
+    font-weight: normal;
+}
+.list .title .list_title b {
+    font-size: 0.8em;
+    font-weight: normal;
+    color: #898989;
+}
+.list .title .list_total {
+    width: 30%;
+    text-align: right;
+}
+.list .bold {
+    color: #7C0046;
+}
+.list .bold .list_total {
+    color: #7C0046;
+    font-weight: bold;
+}
+
+/* 列表描述 */
+.list .list_description {
+    padding-left: 25px;
+    margin-top: 5px;
+    line-height: 1.4em;
+    font-size: 0.9em;
+    display: -moz-box;
+    display: -webkit-box;
+}
+.list .list_description_left {
+    width: 80%;
+}
+.list .list_description_right {
+    width: 20%;
+}
+.list .list_description_extra {
+    padding-left: 25px;
+    line-height: 1.4em;
+    font-size: 0.9em;
+    display: -moz-box;
+    display: -webkit-box;
+}
+
+/* 订单列表 */
+.list .title .shop-pay-icon {
+    background-position: -96px -145px;
+}
+.list .title .booking-icon {
+    background-position: -38px -145px;
+}
+.list .title .takeout-icon {
+    background-position: 1px -145px;
+}
+.list .title .lunch-icon {
+    background-position: -57px -145px;
+}
+.list .closeBox {
+    position: relative;
+    cursor: pointer;
+}
+.list .closeBtn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 18px;
+    height: 18px;
+    background: url('/img/base/leshicons.png') no-repeat -16px -134px;
+    background-size: 1300% 1300%;
+}
+.list .comment {
+    width: 55px;
+    height: 20px;
+    line-height: 20px;
+    padding: 4px;
+    border: none;
+    text-align: center;
+    background: #7C0046;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.list .nopay {
+    color: #FB2A01;
+}
+.list .pay {
+    color: #898989;
+}
+
+/* 交易记录 */
+.list .title .balance {
+    background: url('/img/base/leshicons.png') no-repeat 0px -74px;
+    background-size: 1400% 1400%;
+}
+.list .title .coin-red {
+    color: #FB2A01;
+}
+.list .title .coin-blue {
+    color: #556FB5;
+}

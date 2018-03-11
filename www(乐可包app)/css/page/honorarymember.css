@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2015-11-28 10:55:36
+ * @version $Id$
+ */
+/*顶部样式*/
+.pg-honorarymember .newscontent-icon-wrap {
+    position: absolute;
+    left: 17px;
+    top: 10px;
+    width: 52px;
+    height: 35px;
+    padding-top: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.pg-honorarymember .newscontent-header {
+    background: url('../../img/base/header.png') repeat-x 0px -259px;
+    color: #FFFFFF;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.pg-honorarymember .newscontent-header i {
+    display: block;
+    width: 30px;
+    height: 22px;
+    background: url("../../img/base/home-icons2.png") no-repeat;
+    -webkit-background-size: 28px auto;
+    -moz-background-size: 28px auto;
+    background-size: 28px auto;
+}
+
+.pg-honorarymember .newscontent-header i.newscontent-icon {
+    background-position: 0 -65px;
+}
+
+.pg-honorarymember .newscontent-title {
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+/*卡片部分*/
+.pg-honorarymember .newscontent-nav {
+    width: 91%;
+    top: 45px !important;
+    padding-bottom: 63px;
+    border-width: 1px 0;
+    margin: 15px;
+    /* position: relative; */
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.pg-honorarymember .newscontent-hot-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #C0C0C0;
+}
+
+.pg-honorarymember .newscontent-hot-title p {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 21px;
+    text-align: left;
+}
+
+.pg-honorarymember .newscontent-content {
+    font-size: 14px;
+    color: #666666;
+    text-align: left;
+    line-height: 21px;
+    margin-top: 5px;
+}
+
+.pg-honorarymember .newscontent-content p img {
+    width: 100%;
+}
+
+/*荣誉会员样式*/
+
+.pg-honorarymember .honorarymember {
+    font-size: 18px;
+    color: #666666;
+    text-align: left;
+    line-height: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-indent: 2em;
+}
+
+.pg-honorarymember .honorarymember b {
+    font-size: 18px;
+    color: #FF0707;
+    line-height: 30px;
+    font-weight: normal;
+}
+
+.pg-honorarymember .honorarymembercenter {
+    font-size: 16px;
+    color: #020202;
+    text-align: left;
+    line-height: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: normal;
+}
+

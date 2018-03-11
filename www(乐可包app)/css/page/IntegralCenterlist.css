@@ -1,0 +1,432 @@
+@charset "UTF-8";
+
+/**
+ *
+ * @authors Your Name (you@example.org)
+ * @date    2018-01-18 10:55:36
+ * @version $Id$
+ */
+/*积分中心*/
+
+/*顶部样式*/
+.pg-integralcenterlist html {
+    background: #ededed;
+}
+
+/*未登录样式*/
+.pg-integralcenterlist .notLogin {
+    height: 170px;
+    background-color: #fff;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+.pg-integralcenterlist .notLogin .onep {
+    color: #666666;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.pg-integralcenterlist .notLogin p {
+    text-align: center;
+}
+.pg-integralcenterlist .notLogin .twop {
+    margin-bottom: 20px;
+    height: 40px;
+    color: #fff;
+    width: 35%;
+    outline: none;
+    border: none;
+    border-radius: 6px !important;
+    font-size: 16px;
+    /* font-weight: bold; */
+    background: #FB5555;
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+    line-height: 40px;
+}
+.pg-integralcenterlist .notLogin .thrp {
+    color: #999;
+    font-size: 12px;
+}
+.pg-integralcenterlist .notLogin .thrp a {
+    color: #fb5555;
+}
+
+
+
+
+.pg-integralcenterlist .IntegralCenter-valuenews{
+    background: #FFF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.pg-integralcenterlist .IntegralCenter-title{
+    line-height:50px;
+    font-size:20px;
+}
+.pg-integralcenterlist .IntegralCenter-title u {
+    text-decoration: none;
+    font-size: 14px;
+    position: absolute;
+    right: 4%;
+    background: url(../../img/base/sx.png) 5px 7px no-repeat;
+    background-size: 18px;
+    line-height: 50px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    height: 50px;
+}
+
+
+.pg-integralcenterlist .IntegralCenter-header{
+    background: url('../../img/base/header.png') repeat-x 0px -259px;
+    color: #FFFFFF;
+    position: fixed;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.pg-integralcenterlist .IntegralCenter-header .article-box{
+    position:absolute;
+    right:1em;
+    top:0.8em;
+    z-index:22;
+}
+
+.pg-integralcenterlist .IntegralCenter-header .article-box-img{
+    width:1em;
+    height:1em;
+    background:url("../../img/base/question-mark.png") no-repeat;
+    background-size:100%;
+}
+
+.pg-integralcenterlist .IntegralCenter-nav {
+    top: 50px;/* 67 */
+    padding-bottom: 98px;
+    border-width: 1px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.pg-integralcenterlist .IntegralCenter-valuenews-pitch {
+    margin-left: 15px;
+    margin-right: 15px;
+    overflow: hidden;
+    padding-top: 2px;
+    background: url('../../img/base/storedValuekp.png') no-repeat;
+    background-size: 100% 100%;
+    height: 12em;
+    position: relative;
+}
+
+.pg-integralcenterlist .IntegralCenter-valuenews-pitch>div i{
+    font-style: normal;
+    text-shadow: #666 1px 1px 1px;
+}
+
+.pg-integralcenterlist .IntegralCenter-titlebig{
+    color: #fff;
+    font-size: 14px;
+    padding-top: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.pg-integralcenterlist .IntegralCenter-titlebig i{
+    font-size:0.8em;
+    color:#fff;
+    font-style:normal;
+}
+
+.pg-integralcenterlist .IntegralCenter-titlebig span {
+    display: inline-block;
+    font-size: 3.2em;
+    padding-top: 0.5rem;
+    text-shadow: #666 1px 1px 1px;
+}
+
+.pg-integralcenterlist .por{
+    position: absolute;
+    width: 100%;
+    bottom: 14%;
+}
+
+.pg-integralcenterlist .IntegralCenter-valuenews-title{
+    line-height: 1.2em;
+    font-size: 14px;
+    color: #7F7F7F;
+    width: 49%;
+    float: left;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    text-shadow: #666 1px 1px 1px;
+}
+
+.pg-integralcenterlist .IntegralCenter-valuenews-title span{
+     font-size:1em;
+     color:#fff;
+ }
+
+.pg-integralcenterlist .IntegralCenter-valuenews-title i{
+    font-style: normal;
+    text-shadow: #666 1px 1px 1px;
+}
+
+.pg-integralcenterlist .IntegralCenter-pitch{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    overflow: hidden;
+    background: #FFFFFF;
+}
+
+.pg-integralcenterlist .IntegralCenter-list-title-disabled .IntegralCenter-list-title {
+    color:#999;
+}
+
+.pg-integralcenterlist .IntegralCenter-list-title {
+    display: inline-block;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.pg-integralcenterlist .IntegralCenter-list{
+    line-height: 50px;
+    background: #FFF;
+    text-align: left;
+}
+
+.pg-integralcenterlist .IntegralRecord-pitch{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    overflow: hidden;
+    background: #FFFFFF;
+}
+
+.pg-integralcenterlist .IntegralRecord-list-title{
+    font-size:0.8em;
+    color:#999;
+    padding-left:0.875em;
+    line-height:3.5em;
+    z-index:33;
+    position:relative;
+    text-align:left;
+}
+
+.pg-integralcenterlist .IntegralRecord-list{
+    height:17em;
+}
+.pg-integralcenterlist .IntegralCenter-valuenews-title b{
+    width: 1px;
+    height: 1.4em;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0.5em;
+    background: #fff;.
+    box-shadow: #666 1px 1px 1px;
+}
+
+/*积分中心积分兑换列表*/
+.pg-integralcenterlist .IntegralRecord{
+    background:#fff;
+}
+
+.pg-integralcenterlist .IntegralRecord-list li{
+    height:60px;
+    border-bottom:1px solid #DFDFDF;
+}
+
+/*获取积分列表部分*/
+.getIntegralRuleContent{
+/*    overflow: scroll;
+    max-height: 16em;
+    height: 16em;*/
+    background: #FFF;
+/*    padding-bottom: 15px;*/
+}
+
+.getIntegralRuleContent .vouchers-nav {
+    top: 340px;
+    border-width: 1px 0;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    background: #FFFFFF;
+    height:100%;
+}
+
+.getIntegralRuleContent div.interPullDown{
+    margin-top: -40px;
+}
+
+.getIntegralRuleContent .getIntegralRule-list li{
+    margin-left: 16px;
+    margin-right: 16px;
+    border-bottom: 1px solid #DFDFDF;
+}
+
+
+.getIntegralRuleContent .getIntegralRule-list-left{
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    width:100%;
+}
+
+.getIntegralRuleContent .getIntegralRule-list-right{
+    float:right;
+    margin-top:18px;
+    margin-right:15px;
+}
+
+.getIntegralRuleContent .getIntegralRule-list-left p{
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+}
+
+.getIntegralRuleContent .getIntegralRule-list-left span{
+    font-size: 12px;
+    color: #999;
+}
+
+.getIntegralRuleContent .integralRuleRecord-list-left-top{
+    position: absolute;
+    top: 0px;
+}
+
+.getIntegralRuleContent span.typeName{
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+    display: inline-block;
+    margin-right: 3px;
+}
+.getIntegralRuleContent span.TimeData{
+    font-size: 12px;
+    color: #999;
+/*    margin-top: 1px;*/
+    display: inline-block;
+/*    height: 19px;
+    line-height: 19px;*/
+}
+
+.getIntegralRuleContent p.shopName{
+    font-size: 12px;
+    color: #666;
+    margin-top: 25px;
+}
+
+/*.getIntegralRuleContent .getIntegralRule-list-right .fontColorRed{
+    font-size:20px;
+    color:#AF020B;
+}
+
+.getIntegralRuleContent .getIntegralRule-list-right .fontColorGreen{
+    font-size:18px;
+    color:#02AF16;
+}*/
+.getIntegralRuleContent .getIntegralRule-null{
+    background: #f1f1f1;
+    text-align: center;
+    padding-top: 4%;
+}
+
+.getIntegralRuleContent .getIntegralRule-null img{
+    width: 50%;
+}
+
+.getIntegralRuleContent .interPullDown{
+    margin-left:-40px;
+}
+
+
+/*积分页面相关修改 @lina*/
+.pg-integralcenterlist .flexBox{
+    display: flex;
+}
+.pg-integralcenterlist .flexBox div{
+    flex: 1;
+    text-align: center;
+}
+.pg-integralcenterlist .active{
+    color: #fb5555;
+    background: #fff;
+}
+.pg-integralcenterlist .noactive{
+    color: #666;
+    background: #dfdfdf;
+}
+
+
+/*积分获取相关样式*/
+.getIntegral .getIntegral-list-left{
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.getIntegral .getIntegral-list-left p{
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+}
+.getIntegral .getIntegral-list-left span{
+   font-size: 12px;
+    color: #999; 
+}
+.getIntegral .getIntegral-list-left p.typeName {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+    display: inline-block;
+    margin-right: 6px;
+}
+.getIntegral .getIntegral-list-left p.shopName {
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
+}
+.pg-integralcenterlist .interalExchangeInt{
+    color: #999;
+    font-size: 14px;
+    margin-top: 8%;
+}
+/*@media screen and (max-height: 660px) {
+    .integralExchange-valuenews{
+        max-height: 8em !important;
+        height: 8em !important;
+    }
+}*/
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

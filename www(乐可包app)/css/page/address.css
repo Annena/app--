@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 地址管理页面，样式
+ * @date    2015-11-28 10:55:36
+ * @version $Id$
+ */
+/*顶部样式*/
+.pg-address html {
+    background: #ededed;
+}
+.pg-address .shoplist-icon-wrap {
+    position: absolute;
+    left: 17px;
+    top: 10px;
+    width: 52px;
+    height: 35px;
+    padding-top: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.pg-address .shoplist-header {
+    background: url('../../img/base/header.png') repeat-x 0px -259px;
+    color: #FFFFFF;
+    position: fixed;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.pg-address .shoplist-header i {
+    display: block;
+    width: 30px;
+    height: 22px;
+    background: url("../../img/base/home-icons2.png") no-repeat;
+    -webkit-background-size: 28px auto;
+    -moz-background-size: 28px auto;
+    background-size: 28px auto;
+}
+
+.pg-address .shoplist-header i.shoplist-icon {
+    background-position: 0 -65px;
+}
+
+.pg-address .shoplist-title {
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+}
+.pg-address .shoplist-nav {
+    width: 100%;
+    top: 50px;
+    padding-bottom: 63px;
+    border-width: 1px 0;
+    height: auto;
+    overflow: hidden;
+    /* text-align: center; */
+}
+/* 外卖地址部分 样式 */
+.pg-address .ta_tite {
+    height: 38px;
+    width: 100%;
+    line-height: 38px;
+}
+.pg-address .ta_tite_left {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    float: left;
+    margin-left: 15px;
+}
+.pg-address .ta_tite_right {
+    font-size: 12px;
+    color: #666;
+    float: right;
+    margin-right: 15px;
+}
+.pg-address .add_def_ress {
+    background-color: #fff;
+    border-bottom: 1px solid #dfdfdf;
+    height: 68px;
+    width: 100%;
+    /* line-height: 72px; */
+}
+.pg-address .add_def_ress .add_def_name {
+    color: #666;
+    font-size: 14px;
+    margin-right: 19px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 15px;
+    display: inline-block;
+}
+.pg-address .add_def_ress .add_def_phone {
+    color: #666;
+    font-size: 14px;
+    font-weight: bold;
+}
+.pg-address .add_def_ress .add_def_img {
+    width: 53px;
+    height: 68px;
+    float: right;
+}
+.pg-address .add_def_ress .add_def_img img {
+    width: 1.5em;
+    height: 1.5em;
+    position: relative;
+    float: right;
+    margin-right: 15px;
+    top: 25px;
+    padding-left: 15px;
+    border-left: 1px solid #dfdfdf;
+}
+.pg-address .add_def_ress .add_def_re {
+    font-size: 12px;
+    color: #888;
+    margin-top: 2px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.pg-address .add_ress {
+    height: 51px;
+    width: 100%;
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    background-color: #fff;
+    line-height: 51px;
+}
+.pg-address .add_ress img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}

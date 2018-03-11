@@ -1,0 +1,422 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2015-11-28 10:55:36
+ * @version $Id$
+ */
+ 
+/*新领取的会员卡提示消息样式*/
+.pg-homecard .new_tip{
+        position: absolute;
+        top: 2%;
+        right: 2%;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background: #ff0000;
+        box-shadow: 1px 1px 3px #666;
+        -webkit-box-shadow: 1px 1px 3px #666;
+        }
+
+
+/*顶部样式*/
+.pg-homecard .scanning-icon-wrap {
+    position: absolute;
+    left: 17px;
+    top: 7px;/*10px*/
+    width: 52px;
+    height: 42px;
+    padding-top: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.pg-homecard .share-icon-wrap {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    height: 35px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.pg-homecard .header i {
+    display: block;
+    width: 30px;
+    height: 22px;
+    background: url("../../img/base/home-icons2.png") no-repeat;
+    -webkit-background-size: 24px auto;/*28px*/
+    -moz-background-size: 24px auto;
+    background-size: 24px auto;
+}
+.pg-homecard .header span {
+    display: block;
+    width: 53px;
+    height: 22px;
+    font-size: 12px;
+    margin-top: -18px;
+    text-align: left;
+    color: #E4D1D1;
+}
+
+
+.pg-homecard .header i.scaning-icon {
+    /*background-position: 0 -30px;*/
+    background-position: 5px -27px;
+}
+
+.pg-homecard .header i.share-icon {
+    background-position: 0 -111px;
+    height: 20px;
+    margin-left: 2px;
+    padding-bottom: 2px;
+}
+
+
+.pg-homecard .logo {
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    padding-left: 16px;
+}
+
+.pg-homecard .logo b {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.pg-homecard .homecard-logo {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100px;
+    border: 1px solid #E24273;
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFFFFF;
+    position: relative;
+}
+.pg-homecard .homecard-logo > img {border-radius: 50%;}
+/* vip图片 */
+.pg-homecard .homecard-logo-v {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100px;
+    border: 1px solid #E24273;
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFFFFF;
+    /* overflow: hidden; */
+    position: relative;
+}
+
+.pg-homecard .homecard-none-logo-v {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100px;
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    /* overflow: hidden; */
+    position: relative;
+}
+
+.pg-homecard .homecard-logo-v i {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    border-radius:50%;
+    box-shadow:0 0 4px rgba(0,0,0,0.3);
+}
+
+.pg-homecard .icon-logo-v {
+    width: 5rem;
+    height: 5rem;
+    /*padding: 6px;*/
+    border-radius:50%;
+}
+/* vip图片结束 */
+
+.pg-homecard .homecard-none-logo {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100px;
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+/*卡片部分*/
+.pg-homecard .poifilter-nav {
+    top: 52px;
+    padding-bottom: 63px;
+    border-width: 1px 0;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+/*背景一*/
+.pg-homecard .field-content {
+    width: 91.2%;
+    height: 12.375rem;
+    display: inline-block;
+    margin: 15px 15px 12px 15px;
+    background: #FFFFFF url(../../img/base/bg01.png) repeat-x 0px -1px;
+    background-size: 100%;/*365*/
+    border-radius: 15px;
+    -moz-box-shadow: 0px 6px 8px hsla(0, 0%, 0%, .3);
+    -webkit-box-shadow: 0px 6px 8px hsla(0, 0%, 0%, .3);
+    box-shadow: 0px 6px 8px hsla(0, 0%, 0%, .3);
+    position:relative;
+   /* overflow:hidden;*/
+}
+
+
+/*背景二*/
+.pg-homecard .field-content-two {
+    width: 91.2%;
+    height: 12.375rem;
+    display: inline-block;
+    margin: 15px 15px 12px 15px;
+    background: #FFFFFF url(../../img/base/bg02.png) repeat-x 0px -1px;
+    background-size: 100%;/*392PX*/
+    border-radius: 15px;
+    -moz-box-shadow: 0px 6px 8px hsla(0, 0%, 0%, .3);
+    -webkit-box-shadow: 0px 6px 8px hsla(0, 0%, 0%, .3);
+    box-shadow: 0px 6px 8px hsla(0, 0%, 0%, .3);
+    position:relative;
+}
+
+/*背景三*/
+.pg-homecard .field-content-three {
+    width: 91.2%;
+    height: 12.375rem;
+    display: inline-block;
+    margin: 15px 15px 12px 15px;
+    background: #FFFFFF url(../../img/base/bg03.png) repeat-x 0px -1px;
+    background-size: 100%; /*392PX*/
+    border-radius: 15px;
+    -moz-box-shadow: 0px 6px 8px hsla(0, 0%, 0%, .3);
+    -webkit-box-shadow: 0px 6px 8px hsla(0, 0%, 0%, .3);
+    box-shadow: 0px 6px 8px hsla(0, 0%, 0%, .3);
+    position:relative;
+}
+
+/*背景四*/
+.pg-homecard .field-none {
+    width: 91.2%;
+    height: 12.375rem;
+    display: inline-block;
+    margin: 15px 15px 12px 15px;
+    background-size: 100% !important;/*365*/
+    border-radius: 15px;
+    -moz-box-shadow: 0px 6px 8px hsla(0, 0%, 0%, .3);
+    -webkit-box-shadow: 0px 6px 8px hsla(0, 0%, 0%, .3);
+    box-shadow: 0px 6px 8px hsla(0, 0%, 0%, .3);
+    position:relative;
+}
+
+.pg-homecard .icon-logo {
+    width: 5rem;
+    height: 5rem;
+    /*padding: 6px;*/
+}
+
+.pg-homecard .icon-logoborder {
+    width: 4.8125rem;
+    height: 4.8125rem;
+    border-radius: 100px;
+    margin-top: 1.25rem;/*20px*/
+    margin-bottom: 0.5rem;/*8px*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*.pg-homecard .icon-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.3125rem;
+}*/
+
+.pg-homecard .icon-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.3125rem;
+    color: #333;
+}
+
+.pg-homecard  .icon-futitle i {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 21px;
+    display: inline-block;
+    font-style: normal;
+}
+
+.pg-homecard .icon-futitle {
+    font-size: 12px;
+    line-height: 1.625rem;
+    color: #595757;
+    margin-top: 0.8rem;
+}
+
+.pg-homecard .icon-futitle-txt {
+    font-size: 14px;
+    line-height: 1.625rem;
+    color: #595757;
+}
+
+.pg-homecard .icon-futitle span {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ff498b;
+    padding-right: 5px;
+}
+
+.pg-homecard .icon-title-nonelogo {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.3125rem;
+    margin-top: 4.1875rem;
+}
+
+@media screen and  (min-width: 320px) and (max-width: 370px) {
+   .pg-homecard .icon-title {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 1.3125rem;
+    }
+
+    .pg-homecard .icon-futitle p {
+        font-size: 12px;
+        font-weight: normal;
+        line-height: 21px;
+        display: inline-block;
+    }
+
+    .pg-homecard .icon-futitle {
+        font-size: 12px;
+        line-height: 1.625rem;
+        color: #595757;
+        margin-top: 0.8rem;
+    }
+
+    .pg-homecard .icon-futitle span {
+        font-size: 12px;
+        font-weight: bold;
+        color: #ff498b;
+        padding-right: 2px;
+    }
+
+    .pg-homecard .icon-title-nonelogo {
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 1.3125rem;
+      margin-top: 4.1875rem;
+    }
+
+       .pg-homecard  .icon-futitle-txt {
+        font-size: 14px;
+        line-height: 1.625rem;
+        color: #595757;
+    }
+}
+
+@media screen and  (min-width: 375px) and (max-width: 414px) {
+   .pg-homecard .icon-title {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 1.3125rem;
+    }
+
+   .pg-homecard  .icon-futitle p {
+        font-size: 12px;
+        font-weight: normal;
+        line-height: 21px;
+        display: inline-block;
+    }
+
+    .pg-homecard .icon-futitle {
+        font-size: 12px;
+        line-height: 1.625rem;
+        color: #595757;
+        margin-top: 0.8rem;
+    }
+
+    .pg-homecard .icon-futitle-txt {
+        font-size: 14px;
+        line-height: 1.625rem;
+        color: #595757;
+    }
+
+    .pg-homecard .icon-futitle span {
+        font-size: 14px;
+        font-weight: bold;
+        color: #ff498b;
+        padding-right: 5px;
+    }
+
+    .pg-homecard .icon-title-nonelogo {
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 1.3125rem;
+      margin-top: 4.1875rem;
+    }
+}
+
+.pg-homecard .nologin {
+    font-size: 16px;
+    color: #999999;
+    margin-top: 65%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* 未登录 */
+.pg-homecard #cardContent {
+    color: #9c9c9c;
+}
+.pg-homecard .icon {
+    width: 10rem;
+    font-size: 14px;
+    text-align: center;
+    margin: 46% auto 0;
+}
+.pg-homecard .icon .icon-login {
+    width: 100%;
+    margin-bottom: 3%;
+}
+.pg-homecard .login-button {
+    width: 28%;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 6px;
+    background-color: #fb5555;
+    text-align: center;
+    color: #fff;
+    margin: 10% auto 7%;
+}
+.pg-homecard .login_register {
+    font-size: 12px;
+    text-align: center;
+}
+.pg-homecard .login_register>span {
+    color: red;
+    text-decoration: underline;
+}

@@ -1,0 +1,131 @@
+div[data-id="wrapper"] {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+/*    left: 0px;
+    right: 0px;*/
+    overflow: hidden;
+}
+
+div[data-id="scroller"] {
+    position:relative;
+    width:100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+div[data-id="pullDown"], div[data-id="pullUp"] {
+    background:#fff;
+    height:40px;
+    line-height:40px;
+    padding:5px 10px;
+    /*border-bottom:1px solid #ccc;*/
+    font-weight:bold;
+    font-size:14px;
+    color:#888;
+    text-align: left;
+}
+div[data-id="pullDown"] .pullDownIcon, div[data-id="pullUp"] .pullUpIcon  {
+    display:block; float:left;
+    width:20px; height:20px;
+    margin: 10px 10px 0 36%;/*30%*/
+    background:url('/img/base/pull-icon@2x.png') 0 0 no-repeat;
+    -webkit-background-size:20px 40px;
+     background-size:20px 40px;
+    -webkit-transition-property:-webkit-transform;
+    -webkit-transition-duration:250ms;
+}
+div[data-id="pullDown"] .pullDownIcon {
+    -webkit-transform:rotate(0deg) translateZ(0);
+}
+div[data-id="pullUp"] .pullUpIcon  {
+    -webkit-transform:rotate(-180deg) translateZ(0);
+}
+
+div[data-id="pullDown"].flip .pullDownIcon {
+    -webkit-transform:rotate(-180deg) translateZ(0);
+}
+
+div[data-id="pullUp"].flip .pullUpIcon {
+    -webkit-transform:rotate(0deg) translateZ(0);
+}
+
+div[data-id="pullDown"].load .pullDownIcon, div[data-id="pullUp"].load .pullUpIcon {
+    background-position:0 100%;
+    -webkit-transform:rotate(0deg) translateZ(0);
+    -webkit-transition-duration:0ms;
+    -webkit-animation-name:loading;
+    -webkit-animation-duration:2s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:linear;
+}
+
+@-webkit-keyframes loading {
+    from { -webkit-transform:rotate(0deg) translateZ(0); }
+    to { -webkit-transform:rotate(360deg) translateZ(0); }
+}
+
+/*------------- S 以下css主要是仿IOS滚动条样式(可选样式)  -------------*/
+.myScrollbarH {
+	position:absolute;
+	z-index:100;
+	height: 3px;
+	bottom: 2px;
+	left: 2px;
+	right: 0px;
+}
+
+.myScrollbarH > div {
+	height:100%;
+}
+
+/**
+ * Vertical Scrollbar
+ */
+.myScrollbarV {
+	position: absolute;
+	z-index: 100;
+	width: 3px;
+    bottom: 2px;
+    top: 2px;
+    right: 0px;
+}
+
+.myScrollbarV > div {
+	width:100%;
+}
+
+/**
+ * Both Scrollbars
+ */
+.myScrollbarH > div,
+.myScrollbarV > div {
+	position:absolute;
+	z-index:100;
+
+	/* The following is probably what you want to customize */
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	box-sizing:border-box;
+    background: #888888;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+

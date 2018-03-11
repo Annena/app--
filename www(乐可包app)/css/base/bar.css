@@ -1,0 +1,33 @@
+.bar_title_bar {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background-color: #F7F7F7;
+    color: #E39C00;
+    font-size: 1em;
+    font-weight: bold;
+}
+.bar_title_bar_icon {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background: url('/img/base/leshicons.png') no-repeat;
+    background-size: 900% 900%;
+}
+.bar__content {
+    padding: 7px 40px;
+    font-size: 0.8em;
+    line-height: 1.6em;
+    color: #666;
+}
+.bar__content p {
+    margin: 2px 0;
+}
+.bar__content span {
+    display: inline-block;
+}
+.bar__content .red {
+    color: #FB2A01;
+}

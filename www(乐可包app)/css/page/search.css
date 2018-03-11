@@ -1,0 +1,200 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2015-11-28 10:55:36
+ * @version $Id$
+ */
+.pg-searchbusiness .sch-box {
+    /*background-color: #ffd705;*/
+    padding: 0 15px;/*7px 5px*/
+/*    padding-left: 9px;*/
+    margin-bottom: 10px;
+}
+.pg-searchbusiness .borderradius-3 {
+    border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -ms-boder-radius: 5px !important;
+    -o-boder-radius: 5px !important;
+}
+.pg-searchbusiness .sch-box .sch-input {
+    height: 30px;
+    padding: 0;
+    width: 100%;
+    padding-left: 29px !important;
+    box-sizing: border-box;
+    border: 0px;
+    background-image: url("../../img/base/search-ico.png");
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+    background-position: 8px;
+    font-size: 15px;
+}
+
+.pg-searchbusiness .search-background input {
+    border: 0px;
+}
+
+/*主要内容*/
+.pg-searchbusiness .search-nav {
+    top: 50px !important;
+    height: 100% !important;
+    padding-bottom: 63px;
+    border-width: 1px 0;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    background: #FFFFFF !important;
+}
+.pg-searchbusiness .article-box {
+    height: 11px;
+    background: #EDEDED;
+}
+
+.pg-searchbusiness .hot-search {
+    font-size: 16px;
+    color: #676767;
+    text-align: left;
+    padding-top: 17px;
+    /*margin: 0 15px;*/
+}
+
+.pg-searchbusiness .hot-titlelan {
+    width: 100%;
+    margin: 0 15px;
+}
+
+.pg-searchbusiness .hot-title {
+    background: #FFFFFF;
+    width: 96%;
+    /* margin-top: 50px; */
+    margin-left: 8px;
+}
+
+.pg-searchbusiness .hot-title ul li {
+    /*width: 20%;*/
+    height: 1.875rem;
+    line-height: 1.875rem;
+    margin-top: 12px;
+    margin-left: 7px;
+    padding: 0px 11px;
+    border: 1px solid #B8B9B9;
+    border-radius: 3px;
+     -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -ms-boder-radius: 3px;
+    -o-boder-radius: 3px;
+    display: inline-block;
+    font-size: 12px;
+    color: #595757;
+    text-align: center;
+}
+
+@media screen and (min-width:360px) {
+    .pg-searchbusiness .hot-search {
+        font-size: 18px;
+        color: #676767;
+        text-align: left;
+        padding-top: 17px;
+        /*margin: 0 15px;*/
+    }
+
+    .pg-searchbusiness .hot-title ul li {
+        /*width: 20%;*/
+        height: 1.875rem;
+        line-height: 30px;
+        margin-top: 12px;
+        margin-left: 7px;
+        padding: 0px 11px;
+        border: 1px solid #B8B9B9;
+        border-radius: 3px;
+         -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -ms-boder-radius: 3px;
+        -o-boder-radius: 3px;
+        display: inline-block;
+        font-size: 14px;
+        color: #595757;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:414px)  {
+
+    .pg-searchbusiness .hot-search {
+        font-size: 20px;
+        color: #676767;
+        text-align: left;
+        padding-top: 17px;
+        margin: 0 15px;
+    }
+
+    .pg-searchbusiness .hot-title ul li {
+        /*width: 20%;*/
+        height: 1.875rem;
+        line-height: 1.875rem;
+        margin-top: 12px;
+        margin-left: 7px;
+        padding: 0px 11px;
+        border: 1px solid #B8B9B9;
+        border-radius: 3px;
+         -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -ms-boder-radius: 3px;
+        -o-boder-radius: 3px;
+        display: inline-block;
+        font-size: 16px;
+        color: #595757;
+        text-align: center;
+    }
+}
+
+.pg-searchbusiness .hot-blue-color {
+        color: #00acec !important;
+}
+
+.pg-searchbusiness .hot-red-color {
+        color: #FF0000 !important;
+}
+
+.pg-searchbusiness .hot-purple-color {
+        color: #D168CC !important;
+}
+
+.pg-searchbusiness .hot-pink-color {
+        color: #FF4A83 !important;
+}
+.pg-searchbusiness .copywrite {
+    /*background: #65443A;*/
+    text-align: left;
+    padding-bottom:1rem;
+    padding-top:8rem;
+}
+.pg-searchbusiness a {
+    color: #1B242F;
+    text-decoration: none;
+}
+.pg-searchbusiness .copywrite p {
+    text-align: center;
+    color: #666;
+    margin-left:10px;
+    font-size: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.pg-searchbusiness .gonganbeian{
+    width:10px !important;
+    height:10px;
+    display:block;
+}
+/*.pg-searchbusiness #gonganbeian{
+    position:relative;
+}*/
+.pg-searchbusiness #gonganbeian img{
+   width:14px;
+   height:14px;
+   /*position:absolute;*/
+   /*top:2px;
+   left:77px;*/
+}
